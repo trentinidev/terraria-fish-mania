@@ -3,10 +3,11 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FishMania.Content.Pets.PeixinhoDourado
+namespace FishMania.Content.Pets.GoldfishPal
 {
-	// Aquario com um peixinho dourado de estimacao.
-	public class PeixinhoDouradoItem : ModItem
+	// A bowl with a pet goldfish.
+	[LegacyName("PeixinhoDouradoItem")]
+	public class GoldfishPalItem : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 1;
@@ -14,8 +15,8 @@ namespace FishMania.Content.Pets.PeixinhoDourado
 
 		public override void SetDefaults() {
 			Item.CloneDefaults(ItemID.ZephyrFish);
-			Item.shoot = ModContent.ProjectileType<PeixinhoDouradoProjectile>();
-			Item.buffType = ModContent.BuffType<PeixinhoDouradoBuff>();
+			Item.shoot = ModContent.ProjectileType<GoldfishPalProjectile>();
+			Item.buffType = ModContent.BuffType<GoldfishPalBuff>();
 			Item.rare = ItemRarityID.Orange;
 			Item.value = Item.sellPrice(gold: 2);
 		}
@@ -30,7 +31,7 @@ namespace FishMania.Content.Pets.PeixinhoDourado
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.Bowl)
-				.AddIngredient<DouradoDoRio>()
+				.AddIngredient<RiverDorado>()
 				.Register();
 		}
 	}

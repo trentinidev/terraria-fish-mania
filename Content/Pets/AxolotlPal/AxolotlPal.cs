@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -30,7 +30,7 @@ namespace FishMania.Content.Pets.AxolotlPal
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.Bowl)
-				.AddIngredient<Content.Fish.PeixeCristal>()
+				.AddIngredient<Content.Fish.CrystalFish>()
 				.Register();
 		}
 	}

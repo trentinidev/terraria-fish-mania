@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -30,7 +30,7 @@ namespace FishMania.Content.Pets.PufferPal
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.Bowl)
-				.AddIngredient<Content.Fish.BaiacuEspinhoso>()
+				.AddIngredient<Content.Fish.SpikyPufferfish>()
 				.Register();
 		}
 	}

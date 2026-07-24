@@ -1,29 +1,34 @@
 ﻿using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace FishMania.Content.Fish
 {
-	// Peixes da selva.
+	// Jungle fish.
 
-	public class PiranhaEsmeralda : FishItemBase
+	[LegacyName("PiranhaEsmeralda")]
+	public class EmeraldPiranha : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Blue;
 		protected override int SellValue => Item.sellPrice(silver: 25);
 	}
 
-	public class TucunareSelvagem : FishItemBase
+	[LegacyName("TucunareSelvagem")]
+	public class WildPeacockBass : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Blue;
 		protected override int SellValue => Item.sellPrice(silver: 30);
 	}
 
-	public class EnguiaVenenosa : FishItemBase
+	[LegacyName("EnguiaVenenosa")]
+	public class VenomousEel : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(silver: 35);
 	}
 
-	public class PirarucuAncestral : FishItemBase
+	[LegacyName("PirarucuAncestral")]
+	public class AncestralPirarucu : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.LightPurple;
 		protected override int SellValue => Item.sellPrice(gold: 2);

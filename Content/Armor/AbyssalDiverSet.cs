@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -48,7 +48,7 @@ namespace FishMania.Content.Armor
 			CreateRecipe()
 				.AddIngredient<FishermanHat>()
 				.AddIngredient(ItemID.LunarBar, 8)
-				.AddIngredient<Content.Fish.PeixeObsidiana>(2)
+				.AddIngredient<Content.Fish.ObsidianFish>(2)
 				.AddTile(TileID.LunarCraftingStation)
 				.Register();
 		}
@@ -77,7 +77,7 @@ namespace FishMania.Content.Armor
 			CreateRecipe()
 				.AddIngredient<FishermanOveralls>()
 				.AddIngredient(ItemID.LunarBar, 10)
-				.AddIngredient<Content.Fish.PeixeObsidiana>(2)
+				.AddIngredient<Content.Fish.ObsidianFish>(2)
 				.AddTile(TileID.LunarCraftingStation)
 				.Register();
 		}
@@ -106,7 +106,7 @@ namespace FishMania.Content.Armor
 			CreateRecipe()
 				.AddIngredient<FishermanBoots>()
 				.AddIngredient(ItemID.LunarBar, 8)
-				.AddIngredient<Content.Fish.PeixeObsidiana>(2)
+				.AddIngredient<Content.Fish.ObsidianFish>(2)
 				.AddTile(TileID.LunarCraftingStation)
 				.Register();
 		}

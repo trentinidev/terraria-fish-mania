@@ -6,8 +6,9 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Consumables
 {
-	// Pocao que concede +30 de poder de pesca por 8 minutos.
-	public class PocaoDoPescadorSupremo : ModItem
+	// Potion that grants +30 fishing power for 8 minutes.
+	[LegacyName("PocaoDoPescadorSupremo")]
+	public class SupremeAnglerPotion : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 20;
@@ -25,14 +26,14 @@ namespace FishMania.Content.Consumables
 			Item.consumable = true;
 			Item.rare = ItemRarityID.Orange;
 			Item.value = Item.sellPrice(silver: 40);
-			Item.buffType = ModContent.BuffType<FervorDoPescadorBuff>();
-			Item.buffTime = 8 * 60 * 60; // 8 minutos
+			Item.buffType = ModContent.BuffType<AnglersFervorBuff>();
+			Item.buffTime = 8 * 60 * 60; // 8 minutes
 		}
 
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.BottledWater)
-				.AddIngredient<DouradoDoRio>()
+				.AddIngredient<RiverDorado>()
 				.AddIngredient(ItemID.Waterleaf)
 				.AddTile(TileID.Bottles)
 				.Register();

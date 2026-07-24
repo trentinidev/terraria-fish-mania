@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Rods
 {
-	// Base das varas de pescar do mod.
+	// Base class for the mod's fishing rods.
 	public abstract class FishingRodBase : ModItem
 	{
 		protected abstract int FishingPower { get; }
@@ -37,12 +37,13 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	// Vara inicial barata, alternativa a de madeira.
-	public class VaraDeBambu : FishingRodBase
+	// Cheap starter rod, an alternative to the wooden one.
+	[LegacyName("VaraDeBambu")]
+	public class BambooRod : FishingRodBase
 	{
 		protected override int FishingPower => 15;
 		protected override float BobberSpeed => 10f;
-		protected override int BobberType => ModContent.ProjectileType<BobberBambu>();
+		protected override int BobberType => ModContent.ProjectileType<BobberBamboo>();
 		protected override int Rarity => ItemRarityID.White;
 		protected override int SellValue => Item.sellPrice(silver: 5);
 
@@ -54,11 +55,12 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	public class VaraReforcada : FishingRodBase
+	[LegacyName("VaraReforcada")]
+	public class ReinforcedRod : FishingRodBase
 	{
 		protected override int FishingPower => 22;
 		protected override float BobberSpeed => 11f;
-		protected override int BobberType => ModContent.ProjectileType<BobberReforcado>();
+		protected override int BobberType => ModContent.ProjectileType<BobberReinforced>();
 		protected override int Rarity => ItemRarityID.Blue;
 		protected override int SellValue => Item.sellPrice(silver: 30);
 
@@ -71,11 +73,12 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	public class VaraDourada : FishingRodBase
+	[LegacyName("VaraDourada")]
+	public class GildedRod : FishingRodBase
 	{
 		protected override int FishingPower => 30;
 		protected override float BobberSpeed => 13f;
-		protected override int BobberType => ModContent.ProjectileType<BobberDourado>();
+		protected override int BobberType => ModContent.ProjectileType<BobberGilded>();
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(gold: 1);
 
@@ -91,7 +94,8 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	public class VaraGlacial : FishingRodBase
+	[LegacyName("VaraGlacial")]
+	public class GlacialRod : FishingRodBase
 	{
 		protected override int FishingPower => 33;
 		protected override float BobberSpeed => 13f;
@@ -109,11 +113,12 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	public class VaraSelvagem : FishingRodBase
+	[LegacyName("VaraSelvagem")]
+	public class WildwoodRod : FishingRodBase
 	{
 		protected override int FishingPower => 36;
 		protected override float BobberSpeed => 13.5f;
-		protected override int BobberType => ModContent.ProjectileType<BobberSelvagem>();
+		protected override int BobberType => ModContent.ProjectileType<BobberWildwood>();
 		protected override int Rarity => ItemRarityID.Orange;
 		protected override int SellValue => Item.sellPrice(gold: 1, silver: 50);
 
@@ -127,8 +132,9 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	// Pesca em lava.
-	public class VaraInfernal : FishingRodBase
+	// Can fish in lava.
+	[LegacyName("VaraInfernal")]
+	public class InfernalRod : FishingRodBase
 	{
 		protected override int FishingPower => 40;
 		protected override float BobberSpeed => 14f;
@@ -150,7 +156,8 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	public class VaraCelestial : FishingRodBase
+	[LegacyName("VaraCelestial")]
+	public class CelestialRod : FishingRodBase
 	{
 		protected override int FishingPower => 48;
 		protected override float BobberSpeed => 16f;
@@ -168,12 +175,13 @@ namespace FishMania.Content.Rods
 		}
 	}
 
-	// Vara final: pesca em lava e linha que nunca arrebenta.
-	public class VaraDoPescadorSupremo : FishingRodBase
+	// Final rod: lava fishing and a line that never breaks.
+	[LegacyName("VaraDoPescadorSupremo")]
+	public class SupremeAnglersRod : FishingRodBase
 	{
 		protected override int FishingPower => 55;
 		protected override float BobberSpeed => 17f;
-		protected override int BobberType => ModContent.ProjectileType<BobberSupremo>();
+		protected override int BobberType => ModContent.ProjectileType<BobberSupreme>();
 		protected override int Rarity => ItemRarityID.Red;
 		protected override int SellValue => Item.sellPrice(gold: 15);
 
@@ -188,8 +196,8 @@ namespace FishMania.Content.Rods
 
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<VaraCelestial>()
-				.AddIngredient<VaraInfernal>()
+				.AddIngredient<CelestialRod>()
+				.AddIngredient<InfernalRod>()
 				.AddIngredient(ItemID.LunarBar, 8)
 				.AddTile(TileID.LunarCraftingStation)
 				.Register();

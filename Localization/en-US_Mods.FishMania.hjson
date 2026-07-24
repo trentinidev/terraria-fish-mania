@@ -1,4 +1,4 @@
-Items: {
+﻿Items: {
 	// ---- Fish: forest ----
 	Tilapia: {
 		DisplayName: Tilapia
@@ -10,230 +10,230 @@ Items: {
 		Tooltip: "'Small, but mighty'"
 	}
 
-	CarpaEspelhada: {
+	MirrorCarp: {
 		DisplayName: Mirror Carp
 		Tooltip: Its scales reflect the moonlight
 	}
 
-	BagreBigodudo: {
+	BewhiskeredCatfish: {
 		DisplayName: Bewhiskered Catfish
 		Tooltip: "'Those whiskers have seen things'"
 	}
 
-	DouradoDoRio: {
+	RiverDorado: {
 		DisplayName: River Dorado
-		Tooltip: The golden king of rivers — a fishing potion ingredient
+		Tooltip: The golden king of rivers - a fishing potion ingredient
 	}
 
 	// ---- Fish: ocean ----
-	SardinhaPrateada: {
+	SilverSardine: {
 		DisplayName: Silver Sardine
 		Tooltip: "'Sells well at any market'"
 	}
 
-	AtumGigante: {
+	GiantTuna: {
 		DisplayName: Giant Tuna
 		Tooltip: Nearly a legend among coastal anglers
 	}
 
-	PeixePalhaco: {
+	Clownfish: {
 		DisplayName: Clownfish
 		Tooltip: "'Everyone has been looking for this one'"
 	}
 
-	BaiacuEspinhoso: {
+	SpikyPufferfish: {
 		DisplayName: Spiky Pufferfish
 		Tooltip: Careful when holding it!
 	}
 
-	PeixeEspadaReal: {
+	RoyalSwordfish: {
 		DisplayName: Royal Swordfish
 		Tooltip: Its bill has been mistaken for a real blade
 	}
 
-	LinguadoSorrateiro: {
+	SneakyFlounder: {
 		DisplayName: Sneaky Flounder
 		Tooltip: "'Always on the side you least expect'"
 	}
 
 	// ---- Fish: desert and snow ----
-	PeixeCacto: {
+	CactusFish: {
 		DisplayName: Cactus Fish
 		Tooltip: How a fish became a cactus, nobody knows
 	}
 
-	BagreDoOasis: {
+	OasisCatfish: {
 		DisplayName: Oasis Catfish
 		Tooltip: Survives where no fish should
 	}
 
-	SalmaoArtico: {
+	ArcticSalmon: {
 		DisplayName: Arctic Salmon
 		Tooltip: Swims against the current, and against the cold
 	}
 
-	BacalhauPolar: {
+	PolarCod: {
 		DisplayName: Polar Cod
 		Tooltip: "'Arrived before the feast'"
 	}
 
-	PeixeCristal: {
+	CrystalFish: {
 		DisplayName: Crystal Fish
 		Tooltip: As clear as the ice surrounding it
 	}
 
 	// ---- Fish: jungle ----
-	PiranhaEsmeralda: {
+	EmeraldPiranha: {
 		DisplayName: Emerald Piranha
 		Tooltip: Green, shiny, and far too many teeth
 	}
 
-	TucunareSelvagem: {
+	WildPeacockBass: {
 		DisplayName: Wild Peacock Bass
 		Tooltip: The favorite trophy of jungle anglers
 	}
 
-	EnguiaVenenosa: {
+	VenomousEel: {
 		DisplayName: Venomous Eel
 		Tooltip: Do not touch without gloves
 	}
 
-	PirarucuAncestral: {
+	AncestralPirarucu: {
 		DisplayName: Ancestral Pirarucu
 		Tooltip: A giant that has swum these waters since forgotten times
 	}
 
 	// ---- Fish: corruption and crimson ----
-	PeixeSombrio: {
+	ShadowFish: {
 		DisplayName: Shadow Fish
 		Tooltip: The darkness of the Corruption runs through its veins
 	}
 
-	DevoradorMirim: {
+	DevourerFry: {
 		DisplayName: Devourer Fry
 		Tooltip: "'One day it will grow into a Devourer of Worlds'"
 	}
 
-	PeixeCarmesim: {
+	CrimsonFish: {
 		DisplayName: Crimson Fish
 		Tooltip: It pulses in an unsettling way
 	}
 
-	SanguessugaEscamada: {
+	ScaledLeech: {
 		DisplayName: Scaled Leech
 		Tooltip: Better not to ask what it feeds on
 	}
 
 	// ---- Fish: hallow and underground ----
-	PeixePrisma: {
+	PrismFish: {
 		DisplayName: Prism Fish
 		Tooltip: Reflects every color of the Hallow
 	}
 
-	PeixeFada: {
+	FairyFish: {
 		DisplayName: Fairy Fish
 		Tooltip: Leaves a trail of glittering dust in the water
 	}
 
-	PeixeCegoDasCavernas: {
+	BlindCavefish: {
 		DisplayName: Blind Cavefish
 		Tooltip: It never needed eyes down there
 	}
 
-	PeixeLanterna: {
+	Lanternfish: {
 		DisplayName: Lanternfish
 		Tooltip: Lights its own way through the depths
 	}
 
 	// ---- Fish: special biomes ----
-	Cogupeixe: {
+	Mushfish: {
 		DisplayName: Mushfish
 		Tooltip: Half fish, half mushroom, entirely glowing
 	}
 
-	PeixeNuvem: {
+	Cloudfish: {
 		DisplayName: Cloudfish
 		Tooltip: Fluffy, light, and nearly impossible to hold
 	}
 
-	PeixeMel: {
+	Honeyfish: {
 		DisplayName: Honeyfish
 		Tooltip: Almost too sweet
 	}
 
-	PeixeMagma: {
+	MagmaFish: {
 		DisplayName: Magma Fish
 		Tooltip: Perfectly happy swimming in rivers of lava
 	}
 
-	PeixeObsidiana: {
+	ObsidianFish: {
 		DisplayName: Obsidian Fish
 		Tooltip: Hard on the outside, molten on the inside
 	}
 
 	// ---- Legendary fish ----
-	CarpaLendaria: {
+	LegendaryCarp: {
 		DisplayName: Legendary Carp
 		Tooltip: "'They say it is pathetic... until it evolves'"
 	}
 
-	PeixeRobo: {
+	RoboFish: {
 		DisplayName: Robo Fish
 		Tooltip: "'Unit PSC-4M operational. Initiating protocol: swim'"
 	}
 
-	PeixeEstrelaCadente: {
+	ShootingStarFish: {
 		DisplayName: Shooting Star Fish
-		Tooltip: It fell from the sky on a starry night — make a wish
+		Tooltip: It fell from the sky on a starry night - make a wish
 	}
 
-	PeixeDoVazio: {
+	VoidFish: {
 		DisplayName: Void Fish
 		Tooltip: Staring at it for too long is a bad idea
 	}
 
-	ReiDosPeixes: {
+	KingOfFish: {
 		DisplayName: The King of Fish
 		Tooltip: "'Every angler has a story about it. Few have proof'"
 	}
 
 	// ---- Fishing rods ----
-	VaraDeBambu: {
+	BambooRod: {
 		DisplayName: Bamboo Fishing Rod
 		Tooltip: "'Simple, light and reliable'"
 	}
 
-	VaraReforcada: {
+	ReinforcedRod: {
 		DisplayName: Reinforced Fishing Rod
 		Tooltip: Built to handle feisty fish
 	}
 
-	VaraDourada: {
+	GildedRod: {
 		DisplayName: Gilded Fishing Rod
 		Tooltip: Fishing with style also counts
 	}
 
-	VaraGlacial: {
+	GlacialRod: {
 		DisplayName: Glacial Fishing Rod
 		Tooltip: Not even a frozen lake is an excuse
 	}
 
-	VaraSelvagem: {
+	WildwoodRod: {
 		DisplayName: Wildwood Fishing Rod
 		Tooltip: As flexible as a jungle vine
 	}
 
-	VaraInfernal: {
+	InfernalRod: {
 		DisplayName: Infernal Fishing Rod
 		Tooltip: Allows fishing in lava
 	}
 
-	VaraCelestial: {
+	CelestialRod: {
 		DisplayName: Celestial Fishing Rod
 		Tooltip: Blessed by the waters of the Hallow
 	}
 
-	VaraDoPescadorSupremo: {
+	SupremeAnglersRod: {
 		DisplayName: Supreme Angler's Rod
 		Tooltip:
 			'''
@@ -243,43 +243,43 @@ Items: {
 	}
 
 	// ---- Baits ----
-	MinhocaGorda: {
+	PlumpWorm: {
 		DisplayName: Plump Worm
 		Tooltip: "'Well fed, for very demanding fish'"
 	}
 
-	GrilaoCintilante: {
+	SparklingCricket: {
 		DisplayName: Sparkling Cricket
 		Tooltip: Shines like a fallen star
 	}
 
-	LarvaIgnea: {
+	IgneousLarva: {
 		DisplayName: Igneous Larva
 		Tooltip: Special bait for lava fishing
 	}
 
-	IscaDeNeon: {
+	NeonBait: {
 		DisplayName: Neon Bait
 		Tooltip: No fish can resist that blue glow
 	}
 
-	IscaHolografica: {
+	HolographicBait: {
 		DisplayName: Holographic Bait
 		Tooltip: Cutting-edge technology shaped like a little fish
 	}
 
-	IscaDoVazio: {
+	VoidBait: {
 		DisplayName: Void Bait
 		Tooltip: Attracts things that were perhaps better left alone
 	}
 
 	// ---- Accessories ----
-	AnzolDourado: {
+	GoldenHook: {
 		DisplayName: Golden Hook
 		Tooltip: +10 fishing power
 	}
 
-	CarretelDeSeda: {
+	SilkReel: {
 		DisplayName: Silk Reel
 		Tooltip:
 			'''
@@ -288,7 +288,7 @@ Items: {
 			'''
 	}
 
-	CaixaDeApetrechos: {
+	TackleKit: {
 		DisplayName: Tackle Kit
 		Tooltip:
 			'''
@@ -297,7 +297,7 @@ Items: {
 			'''
 	}
 
-	SonarPortatil: {
+	PortableSonar: {
 		DisplayName: Portable Sonar
 		Tooltip:
 			'''
@@ -306,7 +306,7 @@ Items: {
 			'''
 	}
 
-	AmuletoDoMarProfundo: {
+	DeepSeaAmulet: {
 		DisplayName: Deep Sea Amulet
 		Tooltip:
 			'''
@@ -315,7 +315,7 @@ Items: {
 			'''
 	}
 
-	BoiaDaSorte: {
+	LuckyBuoy: {
 		DisplayName: Lucky Buoy
 		Tooltip:
 			'''
@@ -324,7 +324,7 @@ Items: {
 			'''
 	}
 
-	EquipamentoDoPescadorLendario: {
+	LegendaryAnglersGear: {
 		DisplayName: Legendary Angler's Gear
 		Tooltip:
 			'''
@@ -352,13 +352,13 @@ Items: {
 	}
 
 	// ---- Pet ----
-	PeixinhoDouradoItem: {
+	GoldfishPalItem: {
 		DisplayName: Goldfish Bowl
 		Tooltip: Summons a pet goldfish
 	}
 
 	// ---- Consumables ----
-	SushiDeLambari: {
+	LambariSushi: {
 		DisplayName: Lambari Sushi
 		Tooltip:
 			'''
@@ -367,7 +367,7 @@ Items: {
 			'''
 	}
 
-	MoquecaDeTilapia: {
+	TilapiaMoqueca: {
 		DisplayName: Tilapia Moqueca
 		Tooltip:
 			'''
@@ -376,7 +376,7 @@ Items: {
 			'''
 	}
 
-	BanqueteDoRei: {
+	KingsBanquet: {
 		DisplayName: King's Banquet
 		Tooltip:
 			'''
@@ -385,7 +385,7 @@ Items: {
 			'''
 	}
 
-	PocaoDoPescadorSupremo: {
+	SupremeAnglerPotion: {
 		DisplayName: Supreme Angler Potion
 		Tooltip: +30 fishing power for 8 minutes
 	}
@@ -1018,12 +1018,12 @@ Items: {
 }
 
 Buffs: {
-	FervorDoPescadorBuff: {
+	AnglersFervorBuff: {
 		DisplayName: Angler's Fervor
 		Description: +30 fishing power
 	}
 
-	PeixinhoDouradoBuff: {
+	GoldfishPalBuff: {
 		DisplayName: Pet Goldfish
 		Description: The goldfish is following you
 	}
@@ -1050,15 +1050,15 @@ Buffs: {
 }
 
 Projectiles: {
-	BobberBambu.DisplayName: Bamboo Bobber
-	BobberReforcado.DisplayName: Reinforced Bobber
-	BobberDourado.DisplayName: Gilded Bobber
+	BobberBamboo.DisplayName: Bamboo Bobber
+	BobberReinforced.DisplayName: Reinforced Bobber
+	BobberGilded.DisplayName: Gilded Bobber
 	BobberGlacial.DisplayName: Glacial Bobber
-	BobberSelvagem.DisplayName: Wildwood Bobber
+	BobberWildwood.DisplayName: Wildwood Bobber
 	BobberInfernal.DisplayName: Infernal Bobber
 	BobberCelestial.DisplayName: Celestial Bobber
-	BobberSupremo.DisplayName: Supreme Bobber
-	PeixinhoDouradoProjectile.DisplayName: Pet Goldfish
+	BobberSupreme.DisplayName: Supreme Bobber
+	GoldfishPalProjectile.DisplayName: Pet Goldfish
 	PufferPalProjectile.DisplayName: Puffer Pal
 	AxolotlPalProjectile.DisplayName: Axolotl Pal
 	BobberCactus.DisplayName: Cactus Bobber
@@ -1076,7 +1076,7 @@ Projectiles: {
 }
 
 Sonar: {
-	ReiDosPeixes: The King of Fish took the hook!
-	PeixeDoVazio: Something from the Void is pulling the line...
+	KingOfFish: The King of Fish took the hook!
+	VoidFish: Something from the Void is pulling the line...
 	LeviathanFry: The water trembles... a Leviathan Fry!
 }

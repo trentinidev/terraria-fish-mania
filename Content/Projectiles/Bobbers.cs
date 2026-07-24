@@ -5,13 +5,13 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Projectiles
 {
-	// Base dos bobbers (boias) das varas do mod.
+	// Base class for the mod rods' bobbers.
 	public abstract class BobberBase : ModProjectile
 	{
-		// Cor da linha de pesca desta boia.
+		// Fishing line color of this bobber.
 		public abstract Color LineColor { get; }
 
-		// Se a boia deve emitir luz propria.
+		// Whether the bobber emits its own light.
 		protected virtual bool Glows => false;
 
 		public override void SetDefaults() {
@@ -26,17 +26,20 @@ namespace FishMania.Content.Projectiles
 		}
 	}
 
-	public class BobberBambu : BobberBase
+	[LegacyName("BobberBambu")]
+	public class BobberBamboo : BobberBase
 	{
 		public override Color LineColor => new Color(160, 190, 90);
 	}
 
-	public class BobberReforcado : BobberBase
+	[LegacyName("BobberReforcado")]
+	public class BobberReinforced : BobberBase
 	{
 		public override Color LineColor => new Color(180, 180, 190);
 	}
 
-	public class BobberDourado : BobberBase
+	[LegacyName("BobberDourado")]
+	public class BobberGilded : BobberBase
 	{
 		public override Color LineColor => new Color(255, 215, 0);
 	}
@@ -46,7 +49,8 @@ namespace FishMania.Content.Projectiles
 		public override Color LineColor => new Color(140, 220, 255);
 	}
 
-	public class BobberSelvagem : BobberBase
+	[LegacyName("BobberSelvagem")]
+	public class BobberWildwood : BobberBase
 	{
 		public override Color LineColor => new Color(90, 200, 80);
 	}
@@ -63,7 +67,8 @@ namespace FishMania.Content.Projectiles
 		protected override bool Glows => true;
 	}
 
-	public class BobberSupremo : BobberBase
+	[LegacyName("BobberSupremo")]
+	public class BobberSupreme : BobberBase
 	{
 		public override Color LineColor => new Color(80, 255, 220);
 		protected override bool Glows => true;

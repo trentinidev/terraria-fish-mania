@@ -1,4 +1,4 @@
-using FishMania.Content.Buffs;
+﻿using FishMania.Content.Buffs;
 using FishMania.Content.Fish;
 using Terraria;
 using Terraria.ID;
@@ -32,7 +32,7 @@ namespace FishMania.Content.Consumables
 
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<BacalhauPolar>(2)
+				.AddIngredient<PolarCod>(2)
 				.AddTile(TileID.CookingPots)
 				.Register();
 		}
@@ -47,7 +47,7 @@ namespace FishMania.Content.Consumables
 
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<PeixeMagma>()
+				.AddIngredient<MagmaFish>()
 				.AddIngredient(ItemID.Fireblossom)
 				.AddIngredient(ItemID.Bowl)
 				.AddTile(TileID.CookingPots)
@@ -127,7 +127,7 @@ namespace FishMania.Content.Consumables
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.BottledWater)
-				.AddIngredient<PeixeObsidiana>()
+				.AddIngredient<ObsidianFish>()
 				.AddIngredient(ItemID.Obsidian, 3)
 				.AddTile(TileID.Bottles)
 				.Register();

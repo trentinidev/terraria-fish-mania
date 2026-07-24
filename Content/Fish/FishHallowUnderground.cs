@@ -1,29 +1,34 @@
 ﻿using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace FishMania.Content.Fish
 {
-	// Peixes do sagrado e do subterraneo.
+	// Hallow and underground fish.
 
-	public class PeixePrisma : FishItemBase
+	[LegacyName("PeixePrisma")]
+	public class PrismFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.LightRed;
 		protected override int SellValue => Item.sellPrice(silver: 80);
 	}
 
-	public class PeixeFada : FishItemBase
+	[LegacyName("PeixeFada")]
+	public class FairyFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Pink;
 		protected override int SellValue => Item.sellPrice(gold: 1, silver: 50);
 	}
 
-	public class PeixeCegoDasCavernas : FishItemBase
+	[LegacyName("PeixeCegoDasCavernas")]
+	public class BlindCavefish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.White;
 		protected override int SellValue => Item.sellPrice(silver: 15);
 	}
 
-	public class PeixeLanterna : FishItemBase
+	[LegacyName("PeixeLanterna")]
+	public class Lanternfish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Orange;
 		protected override int SellValue => Item.sellPrice(silver: 70);

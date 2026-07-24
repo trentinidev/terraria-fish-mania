@@ -2,10 +2,11 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FishMania.Content.Pets.PeixinhoDourado
+namespace FishMania.Content.Pets.GoldfishPal
 {
-	// Peixinho dourado flutuante que segue o jogador (comportamento do Peixe-Zefiro).
-	public class PeixinhoDouradoProjectile : ModProjectile
+	// Floating pet goldfish that follows the player (Zephyr Fish behavior).
+	[LegacyName("PeixinhoDouradoProjectile")]
+	public class GoldfishPalProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			Main.projFrames[Type] = 4;
@@ -24,13 +25,13 @@ namespace FishMania.Content.Pets.PeixinhoDourado
 
 		public override bool PreAI() {
 			Player player = Main.player[Projectile.owner];
-			player.zephyrfish = false; // resquicio do AIType
+			player.zephyrfish = false; // leftover from AIType
 			return true;
 		}
 
 		public override void AI() {
 			Player player = Main.player[Projectile.owner];
-			if (!player.dead && player.HasBuff(ModContent.BuffType<PeixinhoDouradoBuff>())) {
+			if (!player.dead && player.HasBuff(ModContent.BuffType<GoldfishPalBuff>())) {
 				Projectile.timeLeft = 2;
 			}
 		}

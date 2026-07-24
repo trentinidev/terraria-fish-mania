@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Accessories
 {
-	// Base dos acessorios de pesca.
+	// Base class for the fishing accessories.
 	public abstract class FishingAccessoryBase : ModItem
 	{
 		protected virtual int Rarity => ItemRarityID.Blue;
@@ -21,8 +21,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +10 de poder de pesca.
-	public class AnzolDourado : FishingAccessoryBase
+	// +10 fishing power.
+	[LegacyName("AnzolDourado")]
+	public class GoldenHook : FishingAccessoryBase
 	{
 		public override void UpdateAccessory(Player player, bool hideVisual) {
 			player.fishingSkill += 10;
@@ -40,8 +41,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +12 de pesca e a linha nunca arrebenta.
-	public class CarretelDeSeda : FishingAccessoryBase
+	// +12 fishing power and the line never breaks.
+	[LegacyName("CarretelDeSeda")]
+	public class SilkReel : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(silver: 80);
@@ -60,8 +62,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +15 de pesca e chance de nao consumir iscas.
-	public class CaixaDeApetrechos : FishingAccessoryBase
+	// +15 fishing power and a chance not to consume bait.
+	[LegacyName("CaixaDeApetrechos")]
+	public class TackleKit : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(gold: 1);
@@ -80,8 +83,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +5 de pesca e efeito permanente de Pocao de Sonar.
-	public class SonarPortatil : FishingAccessoryBase
+	// +5 fishing power and a permanent Sonar Potion effect.
+	[LegacyName("SonarPortatil")]
+	public class PortableSonar : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.Orange;
 		protected override int SellValue => Item.sellPrice(gold: 1, silver: 50);
@@ -101,8 +105,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +20 de pesca, e +10 extra enquanto chove.
-	public class AmuletoDoMarProfundo : FishingAccessoryBase
+	// +20 fishing power, plus +10 while it rains.
+	[LegacyName("AmuletoDoMarProfundo")]
+	public class DeepSeaAmulet : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.LightRed;
 		protected override int SellValue => Item.sellPrice(gold: 2);
@@ -124,8 +129,9 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// +8 de pesca e permite andar sobre a agua.
-	public class BoiaDaSorte : FishingAccessoryBase
+	// +8 fishing power and allows walking on water.
+	[LegacyName("BoiaDaSorte")]
+	public class LuckyBuoy : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(gold: 1);
@@ -145,9 +151,10 @@ namespace FishMania.Content.Accessories
 		}
 	}
 
-	// Combina todos os acessorios de pesca do mod: +25 de pesca,
-	// linha inquebravel, caixa de apetrechos, sonar, pesca em lava e andar na agua.
-	public class EquipamentoDoPescadorLendario : FishingAccessoryBase
+	// Combines every fishing accessory in the mod: +25 fishing power,
+	// unbreakable line, tackle box, sonar, lava fishing and water walking.
+	[LegacyName("EquipamentoDoPescadorLendario")]
+	public class LegendaryAnglersGear : FishingAccessoryBase
 	{
 		protected override int Rarity => ItemRarityID.Red;
 		protected override int SellValue => Item.sellPrice(gold: 10);
@@ -166,12 +173,12 @@ namespace FishMania.Content.Accessories
 
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<AnzolDourado>()
-				.AddIngredient<CarretelDeSeda>()
-				.AddIngredient<CaixaDeApetrechos>()
-				.AddIngredient<SonarPortatil>()
-				.AddIngredient<AmuletoDoMarProfundo>()
-				.AddIngredient<BoiaDaSorte>()
+				.AddIngredient<GoldenHook>()
+				.AddIngredient<SilkReel>()
+				.AddIngredient<TackleKit>()
+				.AddIngredient<PortableSonar>()
+				.AddIngredient<DeepSeaAmulet>()
+				.AddIngredient<LuckyBuoy>()
 				.AddTile(TileID.TinkerersWorkbench)
 				.Register();
 		}

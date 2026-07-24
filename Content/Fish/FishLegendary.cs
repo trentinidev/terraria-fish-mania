@@ -1,35 +1,41 @@
 ﻿using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace FishMania.Content.Fish
 {
-	// Peixes lendarios e fantasiosos, raros em qualquer lugar.
+	// Legendary and fantasy fish, rare anywhere.
 
-	public class CarpaLendaria : FishItemBase
+	[LegacyName("CarpaLendaria")]
+	public class LegendaryCarp : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.LightPurple;
 		protected override int SellValue => Item.sellPrice(gold: 2, silver: 50);
 	}
 
-	public class PeixeRobo : FishItemBase
+	[LegacyName("PeixeRobo")]
+	public class RoboFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.LightPurple;
 		protected override int SellValue => Item.sellPrice(gold: 2, silver: 50);
 	}
 
-	public class PeixeEstrelaCadente : FishItemBase
+	[LegacyName("PeixeEstrelaCadente")]
+	public class ShootingStarFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.LightPurple;
 		protected override int SellValue => Item.sellPrice(gold: 3);
 	}
 
-	public class PeixeDoVazio : FishItemBase
+	[LegacyName("PeixeDoVazio")]
+	public class VoidFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Purple;
 		protected override int SellValue => Item.sellPrice(gold: 5);
 	}
 
-	public class ReiDosPeixes : FishItemBase
+	[LegacyName("ReiDosPeixes")]
+	public class KingOfFish : FishItemBase
 	{
 		protected override int Rarity => ItemRarityID.Red;
 		protected override int SellValue => Item.sellPrice(gold: 25);

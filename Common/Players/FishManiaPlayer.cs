@@ -1,4 +1,4 @@
-using FishMania.Content.Crates;
+﻿using FishMania.Content.Crates;
 using FishMania.Content.Fish;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -64,10 +64,10 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<FlareEel>();
 				}
 				else if (attempt.veryrare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeObsidiana>(), ModContent.ItemType<BasaltGrouper>());
+					itemDrop = Pick(ModContent.ItemType<ObsidianFish>(), ModContent.ItemType<BasaltGrouper>());
 				}
 				else if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeMagma>(), ModContent.ItemType<CinderSole>());
+					itemDrop = Pick(ModContent.ItemType<MagmaFish>(), ModContent.ItemType<CinderSole>());
 				}
 				else if (attempt.uncommon && rand.NextBool(2)) {
 					itemDrop = ModContent.ItemType<AshKoi>();
@@ -81,7 +81,7 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<RoyalJellyfish>();
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<PeixeMel>(), ModContent.ItemType<BumblebeeFish>());
+					itemDrop = Pick(ModContent.ItemType<Honeyfish>(), ModContent.ItemType<BumblebeeFish>());
 				}
 				else if (attempt.common && rand.NextBool(2)) {
 					itemDrop = ModContent.ItemType<BumblebeeFish>();
@@ -113,8 +113,8 @@ namespace FishMania.Common.Players
 			}
 
 			if (attempt.legendary && fishingLevel >= 80 && rand.NextBool(4)) {
-				itemDrop = ModContent.ItemType<ReiDosPeixes>();
-				sonar.Text = Language.GetTextValue("Mods.FishMania.Sonar.ReiDosPeixes");
+				itemDrop = ModContent.ItemType<KingOfFish>();
+				sonar.Text = Language.GetTextValue("Mods.FishMania.Sonar.KingOfFish");
 				sonar.Color = Color.Gold;
 				sonar.Velocity = Vector2.Zero;
 				sonar.DurationInFrames = 300;
@@ -124,9 +124,9 @@ namespace FishMania.Common.Players
 
 			if (attempt.legendary && !Main.dayTime && attempt.heightLevel >= 3 && rand.NextBool(3)) {
 				itemDrop = rand.NextBool()
-					? ModContent.ItemType<PeixeDoVazio>()
+					? ModContent.ItemType<VoidFish>()
 					: ModContent.ItemType<VoidMaw>();
-				sonar.Text = Language.GetTextValue("Mods.FishMania.Sonar.PeixeDoVazio");
+				sonar.Text = Language.GetTextValue("Mods.FishMania.Sonar.VoidFish");
 				sonar.Color = Color.MediumPurple;
 				sonar.Velocity = Vector2.Zero;
 				sonar.DurationInFrames = 300;
@@ -145,15 +145,15 @@ namespace FishMania.Common.Players
 					return;
 				}
 				if (!Main.dayTime && attempt.heightLevel <= 1 && rand.NextBool(5)) {
-					itemDrop = ModContent.ItemType<PeixeEstrelaCadente>();
+					itemDrop = ModContent.ItemType<ShootingStarFish>();
 					return;
 				}
 				if (rand.NextBool(9)) {
-					itemDrop = ModContent.ItemType<CarpaLendaria>();
+					itemDrop = ModContent.ItemType<LegendaryCarp>();
 					return;
 				}
 				if (rand.NextBool(9)) {
-					itemDrop = Pick(ModContent.ItemType<PeixeRobo>(), ModContent.ItemType<ClockworkPike>());
+					itemDrop = Pick(ModContent.ItemType<RoboFish>(), ModContent.ItemType<ClockworkPike>());
 					return;
 				}
 				if (rand.NextBool(10)) {
@@ -178,14 +178,14 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<Opah>();
 				}
 				else if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeEspadaReal>(), ModContent.ItemType<RoyalGrouper>(), ModContent.ItemType<Lionfish>());
+					itemDrop = Pick(ModContent.ItemType<RoyalSwordfish>(), ModContent.ItemType<RoyalGrouper>(), ModContent.ItemType<Lionfish>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<AtumGigante>(), ModContent.ItemType<PeixePalhaco>(), ModContent.ItemType<BaiacuEspinhoso>(),
-						ModContent.ItemType<LinguadoSorrateiro>(), ModContent.ItemType<MahiMahi>(), ModContent.ItemType<Barracuda>());
+					itemDrop = Pick(ModContent.ItemType<GiantTuna>(), ModContent.ItemType<Clownfish>(), ModContent.ItemType<SpikyPufferfish>(),
+						ModContent.ItemType<SneakyFlounder>(), ModContent.ItemType<MahiMahi>(), ModContent.ItemType<Barracuda>());
 				}
 				else if (attempt.common) {
-					itemDrop = Pick(ModContent.ItemType<SardinhaPrateada>(), ModContent.ItemType<SilverAnchovy>(), ModContent.ItemType<SpottedMackerel>());
+					itemDrop = Pick(ModContent.ItemType<SilverSardine>(), ModContent.ItemType<SilverAnchovy>(), ModContent.ItemType<SpottedMackerel>());
 				}
 			}
 			else if (Player.ZoneSnow) {
@@ -193,49 +193,49 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<AuroraTrout>();
 				}
 				else if (attempt.rare) {
-					itemDrop = ModContent.ItemType<PeixeCristal>();
+					itemDrop = ModContent.ItemType<CrystalFish>();
 				}
 				else if (attempt.uncommon) {
 					itemDrop = Pick(ModContent.ItemType<FrostGrayling>(), ModContent.ItemType<GlacierEel>(), ModContent.ItemType<Snowflounder>());
 				}
 				else if (attempt.common) {
-					itemDrop = Pick(ModContent.ItemType<SalmaoArtico>(), ModContent.ItemType<BacalhauPolar>(), ModContent.ItemType<ArcticChar>());
+					itemDrop = Pick(ModContent.ItemType<ArcticSalmon>(), ModContent.ItemType<PolarCod>(), ModContent.ItemType<ArcticChar>());
 				}
 			}
 			else if (Player.ZoneJungle) {
 				if (attempt.veryrare) {
-					itemDrop = Pick(ModContent.ItemType<PirarucuAncestral>(), ModContent.ItemType<RoyalArowana>());
+					itemDrop = Pick(ModContent.ItemType<AncestralPirarucu>(), ModContent.ItemType<RoyalArowana>());
 				}
 				else if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<EnguiaVenenosa>(), ModContent.ItemType<VoltEel>(), ModContent.ItemType<AmazonStingray>());
+					itemDrop = Pick(ModContent.ItemType<VenomousEel>(), ModContent.ItemType<VoltEel>(), ModContent.ItemType<AmazonStingray>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<PiranhaEsmeralda>(), ModContent.ItemType<TucunareSelvagem>(),
+					itemDrop = Pick(ModContent.ItemType<EmeraldPiranha>(), ModContent.ItemType<WildPeacockBass>(),
 						ModContent.ItemType<LeafFish>(), ModContent.ItemType<PoisonDartFish>());
 				}
 			}
 			else if (Player.ZoneCorrupt) {
 				if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<DevoradorMirim>(), ModContent.ItemType<ShadowflameEel>());
+					itemDrop = Pick(ModContent.ItemType<DevourerFry>(), ModContent.ItemType<ShadowflameEel>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<PeixeSombrio>(), ModContent.ItemType<RottenHerring>(), ModContent.ItemType<CursedAnchovy>());
+					itemDrop = Pick(ModContent.ItemType<ShadowFish>(), ModContent.ItemType<RottenHerring>(), ModContent.ItemType<CursedAnchovy>());
 				}
 			}
 			else if (Player.ZoneCrimson) {
 				if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<SanguessugaEscamada>(), ModContent.ItemType<FleshSnapper>());
+					itemDrop = Pick(ModContent.ItemType<ScaledLeech>(), ModContent.ItemType<FleshSnapper>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<PeixeCarmesim>(), ModContent.ItemType<IchorCarp>(), ModContent.ItemType<VeinFish>());
+					itemDrop = Pick(ModContent.ItemType<CrimsonFish>(), ModContent.ItemType<IchorCarp>(), ModContent.ItemType<VeinFish>());
 				}
 			}
 			else if (Player.ZoneHallow) {
 				if (attempt.veryrare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeFada>(), ModContent.ItemType<UnicornFish>());
+					itemDrop = Pick(ModContent.ItemType<FairyFish>(), ModContent.ItemType<UnicornFish>());
 				}
 				else if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<PeixePrisma>(), ModContent.ItemType<CrystalButterflyfish>(), ModContent.ItemType<PrismarineTrout>());
+					itemDrop = Pick(ModContent.ItemType<PrismFish>(), ModContent.ItemType<CrystalButterflyfish>(), ModContent.ItemType<PrismarineTrout>());
 				}
 			}
 			else if (Player.ZoneGlowshroom) {
@@ -243,7 +243,7 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<TruffleTrout>();
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<Cogupeixe>(), ModContent.ItemType<SporeSardine>());
+					itemDrop = Pick(ModContent.ItemType<Mushfish>(), ModContent.ItemType<SporeSardine>());
 				}
 			}
 			else if (Player.ZoneDesert) {
@@ -251,14 +251,14 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<MirageFish>();
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<PeixeCacto>(), ModContent.ItemType<BagreDoOasis>(),
+					itemDrop = Pick(ModContent.ItemType<CactusFish>(), ModContent.ItemType<OasisCatfish>(),
 						ModContent.ItemType<DesertPupfish>(), ModContent.ItemType<SandEel>(), ModContent.ItemType<OasisPerch>());
 				}
 			}
 			else if (attempt.heightLevel == 0) {
 				// Sky fishing.
 				if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeNuvem>(), ModContent.ItemType<SkyManta>(), ModContent.ItemType<CometMinnow>());
+					itemDrop = Pick(ModContent.ItemType<Cloudfish>(), ModContent.ItemType<SkyManta>(), ModContent.ItemType<CometMinnow>());
 				}
 				else if (attempt.uncommon) {
 					itemDrop = ModContent.ItemType<StratusFish>();
@@ -267,13 +267,13 @@ namespace FishMania.Common.Players
 			else if (attempt.heightLevel >= 2) {
 				// Underground and caverns.
 				if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<PeixeLanterna>(), ModContent.ItemType<DeepDweller>());
+					itemDrop = Pick(ModContent.ItemType<Lanternfish>(), ModContent.ItemType<DeepDweller>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<BagreBigodudo>(), ModContent.ItemType<GlowwormEel>(), ModContent.ItemType<CrystalCavefish>());
+					itemDrop = Pick(ModContent.ItemType<BewhiskeredCatfish>(), ModContent.ItemType<GlowwormEel>(), ModContent.ItemType<CrystalCavefish>());
 				}
 				else if (attempt.common) {
-					itemDrop = ModContent.ItemType<PeixeCegoDasCavernas>();
+					itemDrop = ModContent.ItemType<BlindCavefish>();
 				}
 			}
 			else {
@@ -285,10 +285,10 @@ namespace FishMania.Common.Players
 					itemDrop = ModContent.ItemType<MoonshadowBass>();
 				}
 				else if (attempt.rare) {
-					itemDrop = Pick(ModContent.ItemType<DouradoDoRio>(), ModContent.ItemType<GoldenKoi>());
+					itemDrop = Pick(ModContent.ItemType<RiverDorado>(), ModContent.ItemType<GoldenKoi>());
 				}
 				else if (attempt.uncommon) {
-					itemDrop = Pick(ModContent.ItemType<CarpaEspelhada>(), ModContent.ItemType<BagreBigodudo>(),
+					itemDrop = Pick(ModContent.ItemType<MirrorCarp>(), ModContent.ItemType<BewhiskeredCatfish>(),
 						ModContent.ItemType<SilverBream>(), ModContent.ItemType<GrassCarp>(), ModContent.ItemType<RiverPerch>());
 				}
 				else if (attempt.common) {

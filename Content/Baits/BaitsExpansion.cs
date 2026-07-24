@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -57,7 +57,7 @@ namespace FishMania.Content.Baits
 		public override void AddRecipes() {
 			CreateRecipe(3)
 				.AddIngredient(ItemID.GlowingMushroom, 3)
-				.AddIngredient<MinhocaGorda>()
+				.AddIngredient<PlumpWorm>()
 				.Register();
 		}
 	}
@@ -115,7 +115,7 @@ namespace FishMania.Content.Baits
 		public override void AddRecipes() {
 			CreateRecipe(3)
 				.AddIngredient(ItemID.SoulofNight)
-				.AddIngredient<MinhocaGorda>(2)
+				.AddIngredient<PlumpWorm>(2)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
 		}
@@ -130,7 +130,7 @@ namespace FishMania.Content.Baits
 		public override void AddRecipes() {
 			CreateRecipe(3)
 				.AddIngredient(ItemID.FallenStar, 2)
-				.AddIngredient<IscaDoVazio>()
+				.AddIngredient<VoidBait>()
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
 		}

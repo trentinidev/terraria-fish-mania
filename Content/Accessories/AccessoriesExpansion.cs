@@ -1,4 +1,4 @@
-using FishMania.Common.Players;
+﻿using FishMania.Common.Players;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -21,7 +21,7 @@ namespace FishMania.Content.Accessories
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.GoldBar, 6)
-				.AddIngredient<Content.Fish.PeixeFada>()
+				.AddIngredient<Content.Fish.FairyFish>()
 				.AddTile(TileID.Anvils)
 				.Register();
 		}
@@ -64,7 +64,7 @@ namespace FishMania.Content.Accessories
 			CreateRecipe()
 				.AddIngredient(ItemID.HellstoneBar, 10)
 				.AddIngredient(ItemID.Silk, 5)
-				.AddIngredient<Content.Baits.LarvaIgnea>(5)
+				.AddIngredient<Content.Baits.IgneousLarva>(5)
 				.AddTile(TileID.Anvils)
 				.Register();
 		}

@@ -1,9 +1,10 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 
-namespace FishMania.Content.Pets.PeixinhoDourado
+namespace FishMania.Content.Pets.GoldfishPal
 {
-	public class PeixinhoDouradoBuff : ModBuff
+	[LegacyName("PeixinhoDouradoBuff")]
+	public class GoldfishPalBuff : ModBuff
 	{
 		public override void SetStaticDefaults() {
 			Main.buffNoTimeDisplay[Type] = true;
@@ -12,7 +13,7 @@ namespace FishMania.Content.Pets.PeixinhoDourado
 
 		public override void Update(Player player, ref int buffIndex) {
 			bool unused = false;
-			player.BuffHandle_SpawnPetIfNeededAndSetTime(buffIndex, ref unused, ModContent.ProjectileType<PeixinhoDouradoProjectile>());
+			player.BuffHandle_SpawnPetIfNeededAndSetTime(buffIndex, ref unused, ModContent.ProjectileType<GoldfishPalProjectile>());
 		}
 	}
 }

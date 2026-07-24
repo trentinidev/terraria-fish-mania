@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Baits
 {
-	// Base das iscas do mod.
+	// Base class for the mod's baits.
 	public abstract class BaitBase : ModItem
 	{
 		protected abstract int BaitPower { get; }
@@ -27,7 +27,8 @@ namespace FishMania.Content.Baits
 		}
 	}
 
-	public class MinhocaGorda : BaitBase
+	[LegacyName("MinhocaGorda")]
+	public class PlumpWorm : BaitBase
 	{
 		protected override int BaitPower => 20;
 		protected override int Rarity => ItemRarityID.White;
@@ -40,7 +41,8 @@ namespace FishMania.Content.Baits
 		}
 	}
 
-	public class GrilaoCintilante : BaitBase
+	[LegacyName("GrilaoCintilante")]
+	public class SparklingCricket : BaitBase
 	{
 		protected override int BaitPower => 30;
 		protected override int Rarity => ItemRarityID.Blue;
@@ -54,8 +56,9 @@ namespace FishMania.Content.Baits
 		}
 	}
 
-	// Isca de lava: so funciona (e brilha) na lava.
-	public class LarvaIgnea : BaitBase
+	// Lava bait: only works (and glows) in lava.
+	[LegacyName("LarvaIgnea")]
+	public class IgneousLarva : BaitBase
 	{
 		protected override int BaitPower => 35;
 		protected override int Rarity => ItemRarityID.Orange;
@@ -68,14 +71,15 @@ namespace FishMania.Content.Baits
 
 		public override void AddRecipes() {
 			CreateRecipe(3)
-				.AddIngredient<MinhocaGorda>(3)
+				.AddIngredient<PlumpWorm>(3)
 				.AddIngredient(ItemID.Hellstone, 5)
 				.AddTile(TileID.Anvils)
 				.Register();
 		}
 	}
 
-	public class IscaDeNeon : BaitBase
+	[LegacyName("IscaDeNeon")]
+	public class NeonBait : BaitBase
 	{
 		protected override int BaitPower => 40;
 		protected override int Rarity => ItemRarityID.Green;
@@ -89,7 +93,8 @@ namespace FishMania.Content.Baits
 		}
 	}
 
-	public class IscaHolografica : BaitBase
+	[LegacyName("IscaHolografica")]
+	public class HolographicBait : BaitBase
 	{
 		protected override int BaitPower => 50;
 		protected override int Rarity => ItemRarityID.LightRed;
@@ -105,7 +110,8 @@ namespace FishMania.Content.Baits
 		}
 	}
 
-	public class IscaDoVazio : BaitBase
+	[LegacyName("IscaDoVazio")]
+	public class VoidBait : BaitBase
 	{
 		protected override int BaitPower => 60;
 		protected override int Rarity => ItemRarityID.Lime;
@@ -114,7 +120,7 @@ namespace FishMania.Content.Baits
 		public override void AddRecipes() {
 			CreateRecipe(3)
 				.AddIngredient(ItemID.Ectoplasm)
-				.AddIngredient<IscaDeNeon>(3)
+				.AddIngredient<NeonBait>(3)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
 		}

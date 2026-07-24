@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Fish
 {
-	// Base comum de todos os peixes do mod: empilhavel, vendavel, sem uso direto.
+	// Common base for every fish in the mod: stackable, sellable, no direct use.
 	public abstract class FishItemBase : ModItem
 	{
 		protected virtual int Rarity => ItemRarityID.White;

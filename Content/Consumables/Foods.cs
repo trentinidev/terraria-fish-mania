@@ -7,8 +7,8 @@ using Terraria.ModLoader;
 
 namespace FishMania.Content.Consumables
 {
-	// Base das comidas de peixe. A sprite tem 3 quadros verticais:
-	// inventario, segurando e colocada no prato.
+	// Base class for the fish dishes. The sprite has 3 vertical frames:
+	// inventory, held and placed on a plate.
 	public abstract class FishFoodBase : ModItem
 	{
 		protected abstract int FoodBuff { get; }
@@ -39,10 +39,11 @@ namespace FishMania.Content.Consumables
 		}
 	}
 
-	public class SushiDeLambari : FishFoodBase
+	[LegacyName("SushiDeLambari")]
+	public class LambariSushi : FishFoodBase
 	{
 		protected override int FoodBuff => BuffID.WellFed;
-		protected override int BuffTime => 8 * 60 * 60; // 8 minutos
+		protected override int BuffTime => 8 * 60 * 60; // 8 minutes
 
 		public override void AddRecipes() {
 			CreateRecipe()
@@ -52,35 +53,37 @@ namespace FishMania.Content.Consumables
 		}
 	}
 
-	public class MoquecaDeTilapia : FishFoodBase
+	[LegacyName("MoquecaDeTilapia")]
+	public class TilapiaMoqueca : FishFoodBase
 	{
 		protected override int FoodBuff => BuffID.WellFed2;
-		protected override int BuffTime => 12 * 60 * 60; // 12 minutos
+		protected override int BuffTime => 12 * 60 * 60; // 12 minutes
 		protected override int Rarity => ItemRarityID.Green;
 		protected override int SellValue => Item.sellPrice(silver: 60);
 
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient<Tilapia>()
-				.AddIngredient<BagreBigodudo>()
+				.AddIngredient<BewhiskeredCatfish>()
 				.AddIngredient(ItemID.Bowl)
 				.AddTile(TileID.CookingPots)
 				.Register();
 		}
 	}
 
-	public class BanqueteDoRei : FishFoodBase
+	[LegacyName("BanqueteDoRei")]
+	public class KingsBanquet : FishFoodBase
 	{
 		protected override int FoodBuff => BuffID.WellFed3;
-		protected override int BuffTime => 20 * 60 * 60; // 20 minutos
+		protected override int BuffTime => 20 * 60 * 60; // 20 minutes
 		protected override int Rarity => ItemRarityID.LightRed;
 		protected override int SellValue => Item.sellPrice(gold: 2);
 
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<PirarucuAncestral>()
-				.AddIngredient<AtumGigante>()
-				.AddIngredient<DouradoDoRio>()
+				.AddIngredient<AncestralPirarucu>()
+				.AddIngredient<GiantTuna>()
+				.AddIngredient<RiverDorado>()
 				.AddTile(TileID.CookingPots)
 				.Register();
 		}
