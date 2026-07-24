@@ -55,6 +55,10 @@
 ### v2.0.2
 - Fixed a crash on mod load: the Lucky Angler and Depths Elixir buff icons were missing from the assets
 
+### v2.0.3
+- Fish and rod sprites remade at 32x32 so the inventory renders them 1:1, at the exact same scale as vanilla items
+- Chunkier vanilla-style art: 2x2 block scale dithering and bolder shapes
+
 ## Building
 
 The mod is built with tModLoader's own toolchain:

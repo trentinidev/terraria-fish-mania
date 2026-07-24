@@ -68,6 +68,10 @@ v2.0.1
 v2.0.2
 - Fixed a crash on mod load: the Lucky Angler and Depths Elixir buff icons were missing from the assets
 
+v2.0.3
+- Fish and rod sprites remade at 32x32 so the inventory renders them 1:1, at the exact same scale as vanilla items (larger sprites were being shrunk and looked thin and blurry)
+- Chunkier vanilla-style art: 2x2 block scale dithering and bolder shapes
+
 v1.4.0
 - Mod renamed to FishMania and fully translated to English
 - The vanity set was replaced by the Fisherman armor set (Hat 20 def, Overalls 24 def, Boots 22 def, Lime rarity)
