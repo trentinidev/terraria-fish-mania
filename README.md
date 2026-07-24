@@ -4,6 +4,8 @@
 
 **FishMania** is a fishing expansion mod for [tModLoader](https://tmodloader.net) (Terraria 1.4.4.9) that turns fishing into a full progression path.
 
+**Author:** [trentinidev](https://github.com/trentinidev)
+
 ## Content by version
 
 ### v1.0
