@@ -47,6 +47,11 @@
 - **2 new pets** (Puffer Pal and Axolotl Pal), 4 new dishes and 2 new potions (including the Depths Elixir — temporary lava fishing)
 - Brand-new sunset cover art
 
+### v2.0.1
+- Biome crates no longer replace lava crates when lava fishing, and honey crates take priority over mushroom crates
+- Sparkling Cricket and Frost Fly recipes no longer downgrade bait power (Worm instead of Firefly)
+- Crate Magnet rarity corrected to Light Red; localization normalized to tModLoader's canonical format
+
 ## Building
 
 The mod is built with tModLoader's own toolchain:
