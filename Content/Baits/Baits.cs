@@ -48,7 +48,7 @@ namespace FishMania.Content.Baits
 
 		public override void AddRecipes() {
 			CreateRecipe(3)
-				.AddIngredient(ItemID.Firefly)
+				.AddIngredient(ItemID.Worm)
 				.AddIngredient(ItemID.FallenStar)
 				.Register();
 		}

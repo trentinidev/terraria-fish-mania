@@ -1,203 +1,240 @@
 Items: {
 	// ---- Fish: forest ----
 	Tilapia: {
-		DisplayName: "Tilapia"
+		DisplayName: Tilapia
 		Tooltip: "'Fried with a squeeze of lime, nothing beats it'"
 	}
+
 	Lambari: {
-		DisplayName: "Lambari"
+		DisplayName: Lambari
 		Tooltip: "'Small, but mighty'"
 	}
+
 	CarpaEspelhada: {
-		DisplayName: "Mirror Carp"
-		Tooltip: "Its scales reflect the moonlight"
+		DisplayName: Mirror Carp
+		Tooltip: Its scales reflect the moonlight
 	}
+
 	BagreBigodudo: {
-		DisplayName: "Bewhiskered Catfish"
+		DisplayName: Bewhiskered Catfish
 		Tooltip: "'Those whiskers have seen things'"
 	}
+
 	DouradoDoRio: {
-		DisplayName: "River Dorado"
-		Tooltip: "The golden king of rivers — a fishing potion ingredient"
+		DisplayName: River Dorado
+		Tooltip: The golden king of rivers — a fishing potion ingredient
 	}
 
 	// ---- Fish: ocean ----
 	SardinhaPrateada: {
-		DisplayName: "Silver Sardine"
+		DisplayName: Silver Sardine
 		Tooltip: "'Sells well at any market'"
 	}
+
 	AtumGigante: {
-		DisplayName: "Giant Tuna"
-		Tooltip: "Nearly a legend among coastal anglers"
+		DisplayName: Giant Tuna
+		Tooltip: Nearly a legend among coastal anglers
 	}
+
 	PeixePalhaco: {
-		DisplayName: "Clownfish"
+		DisplayName: Clownfish
 		Tooltip: "'Everyone has been looking for this one'"
 	}
+
 	BaiacuEspinhoso: {
-		DisplayName: "Spiky Pufferfish"
-		Tooltip: "Careful when holding it!"
+		DisplayName: Spiky Pufferfish
+		Tooltip: Careful when holding it!
 	}
+
 	PeixeEspadaReal: {
-		DisplayName: "Royal Swordfish"
-		Tooltip: "Its bill has been mistaken for a real blade"
+		DisplayName: Royal Swordfish
+		Tooltip: Its bill has been mistaken for a real blade
 	}
+
 	LinguadoSorrateiro: {
-		DisplayName: "Sneaky Flounder"
+		DisplayName: Sneaky Flounder
 		Tooltip: "'Always on the side you least expect'"
 	}
 
 	// ---- Fish: desert and snow ----
 	PeixeCacto: {
-		DisplayName: "Cactus Fish"
-		Tooltip: "How a fish became a cactus, nobody knows"
+		DisplayName: Cactus Fish
+		Tooltip: How a fish became a cactus, nobody knows
 	}
+
 	BagreDoOasis: {
-		DisplayName: "Oasis Catfish"
-		Tooltip: "Survives where no fish should"
+		DisplayName: Oasis Catfish
+		Tooltip: Survives where no fish should
 	}
+
 	SalmaoArtico: {
-		DisplayName: "Arctic Salmon"
-		Tooltip: "Swims against the current, and against the cold"
+		DisplayName: Arctic Salmon
+		Tooltip: Swims against the current, and against the cold
 	}
+
 	BacalhauPolar: {
-		DisplayName: "Polar Cod"
+		DisplayName: Polar Cod
 		Tooltip: "'Arrived before the feast'"
 	}
+
 	PeixeCristal: {
-		DisplayName: "Crystal Fish"
-		Tooltip: "As clear as the ice surrounding it"
+		DisplayName: Crystal Fish
+		Tooltip: As clear as the ice surrounding it
 	}
 
 	// ---- Fish: jungle ----
 	PiranhaEsmeralda: {
-		DisplayName: "Emerald Piranha"
-		Tooltip: "Green, shiny, and far too many teeth"
+		DisplayName: Emerald Piranha
+		Tooltip: Green, shiny, and far too many teeth
 	}
+
 	TucunareSelvagem: {
-		DisplayName: "Wild Peacock Bass"
-		Tooltip: "The favorite trophy of jungle anglers"
+		DisplayName: Wild Peacock Bass
+		Tooltip: The favorite trophy of jungle anglers
 	}
+
 	EnguiaVenenosa: {
-		DisplayName: "Venomous Eel"
-		Tooltip: "Do not touch without gloves"
+		DisplayName: Venomous Eel
+		Tooltip: Do not touch without gloves
 	}
+
 	PirarucuAncestral: {
-		DisplayName: "Ancestral Pirarucu"
-		Tooltip: "A giant that has swum these waters since forgotten times"
+		DisplayName: Ancestral Pirarucu
+		Tooltip: A giant that has swum these waters since forgotten times
 	}
 
 	// ---- Fish: corruption and crimson ----
 	PeixeSombrio: {
-		DisplayName: "Shadow Fish"
-		Tooltip: "The darkness of the Corruption runs through its veins"
+		DisplayName: Shadow Fish
+		Tooltip: The darkness of the Corruption runs through its veins
 	}
+
 	DevoradorMirim: {
-		DisplayName: "Devourer Fry"
+		DisplayName: Devourer Fry
 		Tooltip: "'One day it will grow into a Devourer of Worlds'"
 	}
+
 	PeixeCarmesim: {
-		DisplayName: "Crimson Fish"
-		Tooltip: "It pulses in an unsettling way"
+		DisplayName: Crimson Fish
+		Tooltip: It pulses in an unsettling way
 	}
+
 	SanguessugaEscamada: {
-		DisplayName: "Scaled Leech"
-		Tooltip: "Better not to ask what it feeds on"
+		DisplayName: Scaled Leech
+		Tooltip: Better not to ask what it feeds on
 	}
 
 	// ---- Fish: hallow and underground ----
 	PeixePrisma: {
-		DisplayName: "Prism Fish"
-		Tooltip: "Reflects every color of the Hallow"
+		DisplayName: Prism Fish
+		Tooltip: Reflects every color of the Hallow
 	}
+
 	PeixeFada: {
-		DisplayName: "Fairy Fish"
-		Tooltip: "Leaves a trail of glittering dust in the water"
+		DisplayName: Fairy Fish
+		Tooltip: Leaves a trail of glittering dust in the water
 	}
+
 	PeixeCegoDasCavernas: {
-		DisplayName: "Blind Cavefish"
-		Tooltip: "It never needed eyes down there"
+		DisplayName: Blind Cavefish
+		Tooltip: It never needed eyes down there
 	}
+
 	PeixeLanterna: {
-		DisplayName: "Lanternfish"
-		Tooltip: "Lights its own way through the depths"
+		DisplayName: Lanternfish
+		Tooltip: Lights its own way through the depths
 	}
 
 	// ---- Fish: special biomes ----
 	Cogupeixe: {
-		DisplayName: "Mushfish"
-		Tooltip: "Half fish, half mushroom, entirely glowing"
+		DisplayName: Mushfish
+		Tooltip: Half fish, half mushroom, entirely glowing
 	}
+
 	PeixeNuvem: {
-		DisplayName: "Cloudfish"
-		Tooltip: "Fluffy, light, and nearly impossible to hold"
+		DisplayName: Cloudfish
+		Tooltip: Fluffy, light, and nearly impossible to hold
 	}
+
 	PeixeMel: {
-		DisplayName: "Honeyfish"
-		Tooltip: "Almost too sweet"
+		DisplayName: Honeyfish
+		Tooltip: Almost too sweet
 	}
+
 	PeixeMagma: {
-		DisplayName: "Magma Fish"
-		Tooltip: "Perfectly happy swimming in rivers of lava"
+		DisplayName: Magma Fish
+		Tooltip: Perfectly happy swimming in rivers of lava
 	}
+
 	PeixeObsidiana: {
-		DisplayName: "Obsidian Fish"
-		Tooltip: "Hard on the outside, molten on the inside"
+		DisplayName: Obsidian Fish
+		Tooltip: Hard on the outside, molten on the inside
 	}
 
 	// ---- Legendary fish ----
 	CarpaLendaria: {
-		DisplayName: "Legendary Carp"
+		DisplayName: Legendary Carp
 		Tooltip: "'They say it is pathetic... until it evolves'"
 	}
+
 	PeixeRobo: {
-		DisplayName: "Robo Fish"
+		DisplayName: Robo Fish
 		Tooltip: "'Unit PSC-4M operational. Initiating protocol: swim'"
 	}
+
 	PeixeEstrelaCadente: {
-		DisplayName: "Shooting Star Fish"
-		Tooltip: "It fell from the sky on a starry night — make a wish"
+		DisplayName: Shooting Star Fish
+		Tooltip: It fell from the sky on a starry night — make a wish
 	}
+
 	PeixeDoVazio: {
-		DisplayName: "Void Fish"
-		Tooltip: "Staring at it for too long is a bad idea"
+		DisplayName: Void Fish
+		Tooltip: Staring at it for too long is a bad idea
 	}
+
 	ReiDosPeixes: {
-		DisplayName: "The King of Fish"
+		DisplayName: The King of Fish
 		Tooltip: "'Every angler has a story about it. Few have proof'"
 	}
 
 	// ---- Fishing rods ----
 	VaraDeBambu: {
-		DisplayName: "Bamboo Fishing Rod"
+		DisplayName: Bamboo Fishing Rod
 		Tooltip: "'Simple, light and reliable'"
 	}
+
 	VaraReforcada: {
-		DisplayName: "Reinforced Fishing Rod"
-		Tooltip: "Built to handle feisty fish"
+		DisplayName: Reinforced Fishing Rod
+		Tooltip: Built to handle feisty fish
 	}
+
 	VaraDourada: {
-		DisplayName: "Gilded Fishing Rod"
-		Tooltip: "Fishing with style also counts"
+		DisplayName: Gilded Fishing Rod
+		Tooltip: Fishing with style also counts
 	}
+
 	VaraGlacial: {
-		DisplayName: "Glacial Fishing Rod"
-		Tooltip: "Not even a frozen lake is an excuse"
+		DisplayName: Glacial Fishing Rod
+		Tooltip: Not even a frozen lake is an excuse
 	}
+
 	VaraSelvagem: {
-		DisplayName: "Wildwood Fishing Rod"
-		Tooltip: "As flexible as a jungle vine"
+		DisplayName: Wildwood Fishing Rod
+		Tooltip: As flexible as a jungle vine
 	}
+
 	VaraInfernal: {
-		DisplayName: "Infernal Fishing Rod"
-		Tooltip: "Allows fishing in lava"
+		DisplayName: Infernal Fishing Rod
+		Tooltip: Allows fishing in lava
 	}
+
 	VaraCelestial: {
-		DisplayName: "Celestial Fishing Rod"
-		Tooltip: "Blessed by the waters of the Hallow"
+		DisplayName: Celestial Fishing Rod
+		Tooltip: Blessed by the waters of the Hallow
 	}
+
 	VaraDoPescadorSupremo: {
-		DisplayName: "Supreme Angler's Rod"
+		DisplayName: Supreme Angler's Rod
 		Tooltip:
 			'''
 			Allows fishing in lava
@@ -207,77 +244,88 @@ Items: {
 
 	// ---- Baits ----
 	MinhocaGorda: {
-		DisplayName: "Plump Worm"
+		DisplayName: Plump Worm
 		Tooltip: "'Well fed, for very demanding fish'"
 	}
+
 	GrilaoCintilante: {
-		DisplayName: "Sparkling Cricket"
-		Tooltip: "Shines like a fallen star"
+		DisplayName: Sparkling Cricket
+		Tooltip: Shines like a fallen star
 	}
+
 	LarvaIgnea: {
-		DisplayName: "Igneous Larva"
-		Tooltip: "Special bait for lava fishing"
+		DisplayName: Igneous Larva
+		Tooltip: Special bait for lava fishing
 	}
+
 	IscaDeNeon: {
-		DisplayName: "Neon Bait"
-		Tooltip: "No fish can resist that blue glow"
+		DisplayName: Neon Bait
+		Tooltip: No fish can resist that blue glow
 	}
+
 	IscaHolografica: {
-		DisplayName: "Holographic Bait"
-		Tooltip: "Cutting-edge technology shaped like a little fish"
+		DisplayName: Holographic Bait
+		Tooltip: Cutting-edge technology shaped like a little fish
 	}
+
 	IscaDoVazio: {
-		DisplayName: "Void Bait"
-		Tooltip: "Attracts things that were perhaps better left alone"
+		DisplayName: Void Bait
+		Tooltip: Attracts things that were perhaps better left alone
 	}
 
 	// ---- Accessories ----
 	AnzolDourado: {
-		DisplayName: "Golden Hook"
-		Tooltip: "+10 fishing power"
+		DisplayName: Golden Hook
+		Tooltip: +10 fishing power
 	}
+
 	CarretelDeSeda: {
-		DisplayName: "Silk Reel"
+		DisplayName: Silk Reel
 		Tooltip:
 			'''
 			+12 fishing power
 			The fishing line never breaks
 			'''
 	}
+
 	CaixaDeApetrechos: {
-		DisplayName: "Tackle Kit"
+		DisplayName: Tackle Kit
 		Tooltip:
 			'''
 			+15 fishing power
 			Chance to not consume bait
 			'''
 	}
+
 	SonarPortatil: {
-		DisplayName: "Portable Sonar"
+		DisplayName: Portable Sonar
 		Tooltip:
 			'''
 			+5 fishing power
 			Reveals what took the hook
 			'''
 	}
+
 	AmuletoDoMarProfundo: {
-		DisplayName: "Deep Sea Amulet"
+		DisplayName: Deep Sea Amulet
 		Tooltip:
 			'''
 			+20 fishing power
 			+10 extra while it rains
 			'''
 	}
+
 	BoiaDaSorte: {
-		DisplayName: "Lucky Buoy"
+		DisplayName: Lucky Buoy
 		Tooltip:
 			'''
 			+8 fishing power
 			Allows walking on water
 			'''
 	}
+
 	EquipamentoDoPescadorLendario: {
-		DisplayName: "Legendary Angler's Gear"
+		DisplayName: Legendary Angler's Gear
 		Tooltip:
 			'''
 			+25 fishing power (+10 in rain)
@@ -288,430 +336,509 @@ Items: {
 
 	// ---- Fisherman armor set ----
 	FishermanHat: {
-		DisplayName: "Fisherman Hat"
-		Tooltip: "Increases fishing power by 10"
-		SetBonus: "Grants the permanent effects of the Fishing, Sonar and Crate potions"
+		DisplayName: Fisherman Hat
+		Tooltip: Increases fishing power by 10
+		SetBonus: Grants the permanent effects of the Fishing, Sonar and Crate potions
 	}
+
 	FishermanOveralls: {
-		DisplayName: "Fisherman Overalls"
-		Tooltip: "Increases fishing power by 10"
+		DisplayName: Fisherman Overalls
+		Tooltip: Increases fishing power by 10
 	}
+
 	FishermanBoots: {
-		DisplayName: "Fisherman Boots"
-		Tooltip: "Increases fishing power by 10"
+		DisplayName: Fisherman Boots
+		Tooltip: Increases fishing power by 10
 	}
 
 	// ---- Pet ----
 	PeixinhoDouradoItem: {
-		DisplayName: "Goldfish Bowl"
-		Tooltip: "Summons a pet goldfish"
+		DisplayName: Goldfish Bowl
+		Tooltip: Summons a pet goldfish
 	}
 
 	// ---- Consumables ----
 	SushiDeLambari: {
-		DisplayName: "Lambari Sushi"
+		DisplayName: Lambari Sushi
 		Tooltip:
 			'''
 			Grants Well Fed for 8 minutes
 			'Countryside fusion cuisine'
 			'''
 	}
+
 	MoquecaDeTilapia: {
-		DisplayName: "Tilapia Moqueca"
+		DisplayName: Tilapia Moqueca
 		Tooltip:
 			'''
 			Grants Plenty Satisfied for 12 minutes
 			'A family recipe'
 			'''
 	}
+
 	BanqueteDoRei: {
-		DisplayName: "King's Banquet"
+		DisplayName: King's Banquet
 		Tooltip:
 			'''
 			Grants Exquisitely Stuffed for 20 minutes
 			Worthy of a king's table
 			'''
 	}
+
 	PocaoDoPescadorSupremo: {
-		DisplayName: "Supreme Angler Potion"
-		Tooltip: "+30 fishing power for 8 minutes"
+		DisplayName: Supreme Angler Potion
+		Tooltip: +30 fishing power for 8 minutes
 	}
 
 	// ================= Expansion content =================
-
+	
 	// ---- Fish: forest ----
 	Bluegill: {
-		DisplayName: "Bluegill"
-		Tooltip: "A backyard pond classic"
+		DisplayName: Bluegill
+		Tooltip: A backyard pond classic
 	}
+
 	RiverPerch: {
-		DisplayName: "River Perch"
-		Tooltip: "Striped and stubborn"
+		DisplayName: River Perch
+		Tooltip: Striped and stubborn
 	}
+
 	GoldenKoi: {
-		DisplayName: "Golden Koi"
-		Tooltip: "Said to bring luck to whoever catches it"
+		DisplayName: Golden Koi
+		Tooltip: Said to bring luck to whoever catches it
 	}
+
 	Sunnyfish: {
-		DisplayName: "Sunnyfish"
-		Tooltip: "It always looks like it is smiling"
+		DisplayName: Sunnyfish
+		Tooltip: It always looks like it is smiling
 	}
+
 	MudMinnow: {
-		DisplayName: "Mud Minnow"
-		Tooltip: "Not much to look at, but the fish love it"
+		DisplayName: Mud Minnow
+		Tooltip: Not much to look at, but the fish love it
 	}
+
 	SilverBream: {
-		DisplayName: "Silver Bream"
-		Tooltip: "Gleams like a fresh coin"
+		DisplayName: Silver Bream
+		Tooltip: Gleams like a fresh coin
 	}
+
 	GrassCarp: {
-		DisplayName: "Grass Carp"
-		Tooltip: "It mowed the lake so you don't have to"
+		DisplayName: Grass Carp
+		Tooltip: It mowed the lake so you don't have to
 	}
 
 	// ---- Fish: ocean ----
 	SpottedMackerel: {
-		DisplayName: "Spotted Mackerel"
-		Tooltip: "Travels in massive schools"
+		DisplayName: Spotted Mackerel
+		Tooltip: Travels in massive schools
 	}
+
 	SilverAnchovy: {
-		DisplayName: "Silver Anchovy"
-		Tooltip: "Tiny, salty, essential"
+		DisplayName: Silver Anchovy
+		Tooltip: Tiny, salty, essential
 	}
+
 	RoyalGrouper: {
-		DisplayName: "Royal Grouper"
-		Tooltip: "A heavyweight of the reef"
+		DisplayName: Royal Grouper
+		Tooltip: A heavyweight of the reef
 	}
+
 	MahiMahi: {
-		DisplayName: "Mahi-Mahi"
-		Tooltip: "So good they named it twice"
+		DisplayName: Mahi-Mahi
+		Tooltip: So good they named it twice
 	}
+
 	Barracuda: {
-		DisplayName: "Barracuda"
-		Tooltip: "All teeth and bad intentions"
+		DisplayName: Barracuda
+		Tooltip: All teeth and bad intentions
 	}
+
 	Lionfish: {
-		DisplayName: "Lionfish"
-		Tooltip: "Beautiful, venomous, dramatic"
+		DisplayName: Lionfish
+		Tooltip: Beautiful, venomous, dramatic
 	}
+
 	Opah: {
-		DisplayName: "Opah"
-		Tooltip: "The warm-blooded moonfish of the deep"
+		DisplayName: Opah
+		Tooltip: The warm-blooded moonfish of the deep
 	}
 
 	// ---- Fish: desert and snow ----
 	DesertPupfish: {
-		DisplayName: "Desert Pupfish"
-		Tooltip: "Lives where water shouldn't exist"
+		DisplayName: Desert Pupfish
+		Tooltip: Lives where water shouldn't exist
 	}
+
 	SandEel: {
-		DisplayName: "Sand Eel"
-		Tooltip: "Swims through dunes like water"
+		DisplayName: Sand Eel
+		Tooltip: Swims through dunes like water
 	}
+
 	OasisPerch: {
-		DisplayName: "Oasis Perch"
-		Tooltip: "Keeper of the last cool puddle"
+		DisplayName: Oasis Perch
+		Tooltip: Keeper of the last cool puddle
 	}
+
 	MirageFish: {
-		DisplayName: "Mirage Fish"
-		Tooltip: "Are you sure you caught it?"
+		DisplayName: Mirage Fish
+		Tooltip: Are you sure you caught it?
 	}
+
 	ArcticChar: {
-		DisplayName: "Arctic Char"
-		Tooltip: "Cold water, warm colors"
+		DisplayName: Arctic Char
+		Tooltip: Cold water, warm colors
 	}
+
 	FrostGrayling: {
-		DisplayName: "Frost Grayling"
-		Tooltip: "Its fin looks like a frozen sail"
+		DisplayName: Frost Grayling
+		Tooltip: Its fin looks like a frozen sail
 	}
+
 	GlacierEel: {
-		DisplayName: "Glacier Eel"
-		Tooltip: "Slides between the ice like a living icicle"
+		DisplayName: Glacier Eel
+		Tooltip: Slides between the ice like a living icicle
 	}
+
 	Snowflounder: {
-		DisplayName: "Snowflounder"
-		Tooltip: "Perfectly camouflaged against the snow"
+		DisplayName: Snowflounder
+		Tooltip: Perfectly camouflaged against the snow
 	}
+
 	AuroraTrout: {
-		DisplayName: "Aurora Trout"
-		Tooltip: "Its scales ripple with polar lights"
+		DisplayName: Aurora Trout
+		Tooltip: Its scales ripple with polar lights
 	}
 
 	// ---- Fish: jungle ----
 	RoyalArowana: {
-		DisplayName: "Royal Arowana"
-		Tooltip: "The jewel of jungle collectors"
+		DisplayName: Royal Arowana
+		Tooltip: The jewel of jungle collectors
 	}
+
 	VoltEel: {
-		DisplayName: "Volt Eel"
-		Tooltip: "Do not fish it with a metal rod"
+		DisplayName: Volt Eel
+		Tooltip: Do not fish it with a metal rod
 	}
+
 	LeafFish: {
-		DisplayName: "Leaf Fish"
-		Tooltip: "Indistinguishable from a floating leaf"
+		DisplayName: Leaf Fish
+		Tooltip: Indistinguishable from a floating leaf
 	}
+
 	PoisonDartFish: {
-		DisplayName: "Poison Dart Fish"
-		Tooltip: "Bright colors mean bad news"
+		DisplayName: Poison Dart Fish
+		Tooltip: Bright colors mean bad news
 	}
+
 	AmazonStingray: {
-		DisplayName: "Amazon Stingray"
-		Tooltip: "A living river carpet"
+		DisplayName: Amazon Stingray
+		Tooltip: A living river carpet
 	}
 
 	// ---- Fish: corruption and crimson ----
 	RottenHerring: {
-		DisplayName: "Rotten Herring"
-		Tooltip: "It was like this before you caught it, honest"
+		DisplayName: Rotten Herring
+		Tooltip: It was like this before you caught it, honest
 	}
+
 	ShadowflameEel: {
-		DisplayName: "Shadowflame Eel"
-		Tooltip: "Burns cold and dark"
+		DisplayName: Shadowflame Eel
+		Tooltip: Burns cold and dark
 	}
+
 	CursedAnchovy: {
-		DisplayName: "Cursed Anchovy"
-		Tooltip: "Even the pizza refused it"
+		DisplayName: Cursed Anchovy
+		Tooltip: Even the pizza refused it
 	}
+
 	IchorCarp: {
-		DisplayName: "Ichor Carp"
-		Tooltip: "Drips something golden and unpleasant"
+		DisplayName: Ichor Carp
+		Tooltip: Drips something golden and unpleasant
 	}
+
 	FleshSnapper: {
-		DisplayName: "Flesh Snapper"
-		Tooltip: "It snapped first"
+		DisplayName: Flesh Snapper
+		Tooltip: It snapped first
 	}
+
 	VeinFish: {
-		DisplayName: "Vein Fish"
-		Tooltip: "It has a pulse. Somehow."
+		DisplayName: Vein Fish
+		Tooltip: It has a pulse. Somehow.
 	}
 
 	// ---- Fish: hallow and underground ----
 	CrystalButterflyfish: {
-		DisplayName: "Crystal Butterflyfish"
-		Tooltip: "Wings of living crystal"
+		DisplayName: Crystal Butterflyfish
+		Tooltip: Wings of living crystal
 	}
+
 	UnicornFish: {
-		DisplayName: "Unicorn Fish"
-		Tooltip: "The horn is real. The magic, probably."
+		DisplayName: Unicorn Fish
+		Tooltip: The horn is real. The magic, probably.
 	}
+
 	PrismarineTrout: {
-		DisplayName: "Prismarine Trout"
-		Tooltip: "Splits the light into rainbows as it swims"
+		DisplayName: Prismarine Trout
+		Tooltip: Splits the light into rainbows as it swims
 	}
+
 	CrystalCavefish: {
-		DisplayName: "Crystal Cavefish"
-		Tooltip: "Grew up among the gem clusters"
+		DisplayName: Crystal Cavefish
+		Tooltip: Grew up among the gem clusters
 	}
+
 	GlowwormEel: {
-		DisplayName: "Glowworm Eel"
-		Tooltip: "Lights its own tunnel"
+		DisplayName: Glowworm Eel
+		Tooltip: Lights its own tunnel
 	}
+
 	DeepDweller: {
-		DisplayName: "Deep Dweller"
-		Tooltip: "It has never seen the sun, and prefers it that way"
+		DisplayName: Deep Dweller
+		Tooltip: It has never seen the sun, and prefers it that way
 	}
 
 	// ---- Fish: special biomes ----
 	SporeSardine: {
-		DisplayName: "Spore Sardine"
-		Tooltip: "Sneezes glowing dust"
+		DisplayName: Spore Sardine
+		Tooltip: Sneezes glowing dust
 	}
+
 	TruffleTrout: {
-		DisplayName: "Truffle Trout"
-		Tooltip: "A delicacy among mushroom folk"
+		DisplayName: Truffle Trout
+		Tooltip: A delicacy among mushroom folk
 	}
+
 	SkyManta: {
-		DisplayName: "Sky Manta"
-		Tooltip: "Glides between the clouds"
+		DisplayName: Sky Manta
+		Tooltip: Glides between the clouds
 	}
+
 	StratusFish: {
-		DisplayName: "Stratus Fish"
-		Tooltip: "Part fish, part weather forecast"
+		DisplayName: Stratus Fish
+		Tooltip: Part fish, part weather forecast
 	}
+
 	CometMinnow: {
-		DisplayName: "Comet Minnow"
-		Tooltip: "Leaves a trail of stardust"
+		DisplayName: Comet Minnow
+		Tooltip: Leaves a trail of stardust
 	}
+
 	CinderSole: {
-		DisplayName: "Cinder Sole"
-		Tooltip: "Flat, hot, and surprisingly fast"
+		DisplayName: Cinder Sole
+		Tooltip: Flat, hot, and surprisingly fast
 	}
+
 	AshKoi: {
-		DisplayName: "Ash Koi"
-		Tooltip: "Serene even in a river of fire"
+		DisplayName: Ash Koi
+		Tooltip: Serene even in a river of fire
 	}
+
 	BasaltGrouper: {
-		DisplayName: "Basalt Grouper"
-		Tooltip: "Heavy as the rock it is named after"
+		DisplayName: Basalt Grouper
+		Tooltip: Heavy as the rock it is named after
 	}
+
 	FlareEel: {
-		DisplayName: "Flare Eel"
-		Tooltip: "A ribbon of molten light"
+		DisplayName: Flare Eel
+		Tooltip: A ribbon of molten light
 	}
+
 	BumblebeeFish: {
-		DisplayName: "Bumblebee Fish"
-		Tooltip: "Bzzz... blub. Bzzz... blub."
+		DisplayName: Bumblebee Fish
+		Tooltip: Bzzz... blub. Bzzz... blub.
 	}
+
 	RoyalJellyfish: {
-		DisplayName: "Royal Jellyfish"
-		Tooltip: "The queen's favorite dessert"
+		DisplayName: Royal Jellyfish
+		Tooltip: The queen's favorite dessert
 	}
 
 	// ---- Fish: special conditions ----
 	MoonshadowBass: {
-		DisplayName: "Moonshadow Bass"
-		Tooltip: "Only bites when the moon is watching"
+		DisplayName: Moonshadow Bass
+		Tooltip: Only bites when the moon is watching
 	}
+
 	StargazerFish: {
-		DisplayName: "Stargazer Fish"
-		Tooltip: "Its eyes always point at the constellations"
+		DisplayName: Stargazer Fish
+		Tooltip: Its eyes always point at the constellations
 	}
+
 	BloodMoonPiranha: {
-		DisplayName: "Blood Moon Piranha"
-		Tooltip: "The blood moon makes everything angrier"
+		DisplayName: Blood Moon Piranha
+		Tooltip: The blood moon makes everything angrier
 	}
+
 	BloodEel: {
-		DisplayName: "Blood Eel"
-		Tooltip: "It rises when the sky turns red"
+		DisplayName: Blood Eel
+		Tooltip: It rises when the sky turns red
 	}
+
 	StormFish: {
-		DisplayName: "Storm Fish"
-		Tooltip: "It only bites in the pouring rain"
+		DisplayName: Storm Fish
+		Tooltip: It only bites in the pouring rain
 	}
 
 	// ---- Fish: legendary ----
 	LeviathanFry: {
-		DisplayName: "Leviathan Fry"
+		DisplayName: Leviathan Fry
 		Tooltip: "'One day it will sink ships. Today it fits in your pocket.'"
 	}
+
 	MidasFish: {
-		DisplayName: "Midas Fish"
-		Tooltip: "Everything it touches turns to profit"
+		DisplayName: Midas Fish
+		Tooltip: Everything it touches turns to profit
 	}
+
 	ClockworkPike: {
-		DisplayName: "Clockwork Pike"
+		DisplayName: Clockwork Pike
 		Tooltip: "'Tick... tock... splash'"
 	}
+
 	VoidMaw: {
-		DisplayName: "Void Maw"
-		Tooltip: "Mostly mouth. Entirely hungry."
+		DisplayName: Void Maw
+		Tooltip: Mostly mouth. Entirely hungry.
 	}
+
 	CelestialGuppy: {
-		DisplayName: "Celestial Guppy"
-		Tooltip: "A tiny piece of the night sky"
+		DisplayName: Celestial Guppy
+		Tooltip: A tiny piece of the night sky
 	}
+
 	AbyssalAngler: {
-		DisplayName: "Abyssal Angler"
-		Tooltip: "Its lantern is the last thing prey ever sees"
+		DisplayName: Abyssal Angler
+		Tooltip: Its lantern is the last thing prey ever sees
 	}
 
 	// ---- Expansion rods ----
 	CactusRod: {
-		DisplayName: "Cactus Rod"
-		Tooltip: "Careful where you hold it"
+		DisplayName: Cactus Rod
+		Tooltip: Careful where you hold it
 	}
+
 	CoralRod: {
-		DisplayName: "Coral Rod"
-		Tooltip: "Smells like the sea breeze"
+		DisplayName: Coral Rod
+		Tooltip: Smells like the sea breeze
 	}
+
 	BoneRod: {
-		DisplayName: "Bone Rod"
-		Tooltip: "Rattles softly when a fish bites"
+		DisplayName: Bone Rod
+		Tooltip: Rattles softly when a fish bites
 	}
+
 	SpiderRod: {
-		DisplayName: "Spider Rod"
-		Tooltip: "The line is pure spider silk"
+		DisplayName: Spider Rod
+		Tooltip: The line is pure spider silk
 	}
+
 	HoneycombRod: {
-		DisplayName: "Honeycomb Rod"
-		Tooltip: "Slightly sticky, very effective"
+		DisplayName: Honeycomb Rod
+		Tooltip: Slightly sticky, very effective
 	}
+
 	MushroomRod: {
-		DisplayName: "Mushroom Rod"
-		Tooltip: "Glows softly in the dark"
+		DisplayName: Mushroom Rod
+		Tooltip: Glows softly in the dark
 	}
+
 	MeteorRod: {
-		DisplayName: "Meteor Rod"
-		Tooltip: "Forged from a fallen star"
+		DisplayName: Meteor Rod
+		Tooltip: Forged from a fallen star
 	}
+
 	ObsidianRod: {
-		DisplayName: "Obsidian Rod"
-		Tooltip: "Cooled lava, heated fishing"
+		DisplayName: Obsidian Rod
+		Tooltip: Cooled lava, heated fishing
 	}
+
 	StormRod: {
-		DisplayName: "Storm Rod"
-		Tooltip: "Crackles with static before a catch"
+		DisplayName: Storm Rod
+		Tooltip: Crackles with static before a catch
 	}
+
 	CrystalRod: {
-		DisplayName: "Crystal Rod"
-		Tooltip: "Resonates when fish are near"
+		DisplayName: Crystal Rod
+		Tooltip: Resonates when fish are near
 	}
+
 	SpectralRod: {
-		DisplayName: "Spectral Rod"
-		Tooltip: "Haunted by the ghosts of fish past"
+		DisplayName: Spectral Rod
+		Tooltip: Haunted by the ghosts of fish past
 	}
+
 	ShroomiteRod: {
-		DisplayName: "Shroomite Rod"
-		Tooltip: "State-of-the-art mushroom technology"
+		DisplayName: Shroomite Rod
+		Tooltip: State-of-the-art mushroom technology
 	}
 
 	// ---- Expansion baits ----
 	SpicedBeetle: {
-		DisplayName: "Spiced Beetle"
-		Tooltip: "Crunchy on the outside, irresistible inside"
+		DisplayName: Spiced Beetle
+		Tooltip: Crunchy on the outside, irresistible inside
 	}
+
 	FrostFly: {
-		DisplayName: "Frost Fly"
-		Tooltip: "Never melts, always tempts"
+		DisplayName: Frost Fly
+		Tooltip: Never melts, always tempts
 	}
+
 	HoneyGrub: {
-		DisplayName: "Honey Grub"
-		Tooltip: "Glazed and delicious"
+		DisplayName: Honey Grub
+		Tooltip: Glazed and delicious
 	}
+
 	SporeMite: {
-		DisplayName: "Spore Mite"
-		Tooltip: "Leaves a trail of glowing spores"
+		DisplayName: Spore Mite
+		Tooltip: Leaves a trail of glowing spores
 	}
+
 	GlowShrimp: {
-		DisplayName: "Glow Shrimp"
-		Tooltip: "A tiny lantern of the reef"
+		DisplayName: Glow Shrimp
+		Tooltip: A tiny lantern of the reef
 	}
+
 	CrystalGnat: {
-		DisplayName: "Crystal Gnat"
-		Tooltip: "Its wings chime like tiny bells"
+		DisplayName: Crystal Gnat
+		Tooltip: Its wings chime like tiny bells
 	}
+
 	StormWasp: {
-		DisplayName: "Storm Wasp"
-		Tooltip: "Buzzes with real thunder"
+		DisplayName: Storm Wasp
+		Tooltip: Buzzes with real thunder
 	}
+
 	SoulLeech: {
-		DisplayName: "Soul Leech"
-		Tooltip: "Feeds on things better left alone"
+		DisplayName: Soul Leech
+		Tooltip: Feeds on things better left alone
 	}
+
 	Starworm: {
-		DisplayName: "Starworm"
-		Tooltip: "The finest bait under the stars"
+		DisplayName: Starworm
+		Tooltip: The finest bait under the stars
 	}
 
 	// ---- Expansion accessories ----
 	LuckyLure: {
-		DisplayName: "Lucky Lure"
+		DisplayName: Lucky Lure
 		Tooltip:
 			'''
 			+12 fishing power
 			Increases luck
 			'''
 	}
+
 	CrateMagnet: {
-		DisplayName: "Crate Magnet"
+		DisplayName: Crate Magnet
 		Tooltip:
 			'''
 			+8 fishing power
 			Grants the permanent effect of the Crate Potion
 			'''
 	}
+
 	LavaproofTackleBag: {
-		DisplayName: "Lavaproof Tackle Bag"
+		DisplayName: Lavaproof Tackle Bag
 		Tooltip:
 			'''
 			+10 fishing power
@@ -722,206 +849,234 @@ Items: {
 
 	// ---- Apprentice Fisher armor ----
 	ApprenticeFisherHat: {
-		DisplayName: "Apprentice Fisher Hat"
-		Tooltip: "Increases fishing power by 5"
-		SetBonus: "The fishing line never breaks and +5 fishing power"
+		DisplayName: Apprentice Fisher Hat
+		Tooltip: Increases fishing power by 5
+		SetBonus: The fishing line never breaks and +5 fishing power
 	}
+
 	ApprenticeFisherVest: {
-		DisplayName: "Apprentice Fisher Vest"
-		Tooltip: "Increases fishing power by 5"
+		DisplayName: Apprentice Fisher Vest
+		Tooltip: Increases fishing power by 5
 	}
+
 	ApprenticeFisherWaders: {
-		DisplayName: "Apprentice Fisher Waders"
-		Tooltip: "Increases fishing power by 5"
+		DisplayName: Apprentice Fisher Waders
+		Tooltip: Increases fishing power by 5
 	}
 
 	// ---- Abyssal Diver armor ----
 	AbyssalDiverHelmet: {
-		DisplayName: "Abyssal Diver Helmet"
-		Tooltip: "Increases fishing power by 15"
-		SetBonus: "Permanent Fishing, Sonar and Crate potion effects, lava fishing and water walking"
+		DisplayName: Abyssal Diver Helmet
+		Tooltip: Increases fishing power by 15
+		SetBonus: Permanent Fishing, Sonar and Crate potion effects, lava fishing and water walking
 	}
+
 	AbyssalDiverSuit: {
-		DisplayName: "Abyssal Diver Suit"
-		Tooltip: "Increases fishing power by 15"
+		DisplayName: Abyssal Diver Suit
+		Tooltip: Increases fishing power by 15
 	}
+
 	AbyssalDiverFins: {
-		DisplayName: "Abyssal Diver Fins"
-		Tooltip: "Increases fishing power by 15"
+		DisplayName: Abyssal Diver Fins
+		Tooltip: Increases fishing power by 15
 	}
 
 	// ---- Vanity sets ----
 	SailorCap: {
-		DisplayName: "Sailor Cap"
+		DisplayName: Sailor Cap
 		Tooltip: "'Ahoy!'"
 	}
+
 	SailorShirt: {
-		DisplayName: "Sailor Shirt"
-		Tooltip: "Crisp, white and salty"
+		DisplayName: Sailor Shirt
+		Tooltip: Crisp, white and salty
 	}
+
 	SailorPants: {
-		DisplayName: "Sailor Pants"
-		Tooltip: "Navy blue, naturally"
+		DisplayName: Sailor Pants
+		Tooltip: Navy blue, naturally
 	}
+
 	BrassDiverHelmet: {
-		DisplayName: "Brass Diver Helmet"
+		DisplayName: Brass Diver Helmet
 		Tooltip: "'Twenty thousand leagues of style'"
 	}
+
 	BrassDiverSuit: {
-		DisplayName: "Brass Diver Suit"
-		Tooltip: "Heavy, shiny and definitely not waterproof anymore"
+		DisplayName: Brass Diver Suit
+		Tooltip: Heavy, shiny and definitely not waterproof anymore
 	}
+
 	BrassDiverBoots: {
-		DisplayName: "Brass Diver Boots"
-		Tooltip: "Lead soles for extra gravitas"
+		DisplayName: Brass Diver Boots
+		Tooltip: Lead soles for extra gravitas
 	}
+
 	FishCostumeMask: {
-		DisplayName: "Fish Costume Mask"
-		Tooltip: "Blub blub"
+		DisplayName: Fish Costume Mask
+		Tooltip: Blub blub
 	}
+
 	FishCostumeSuit: {
-		DisplayName: "Fish Costume Suit"
-		Tooltip: "Become the catch of the day"
+		DisplayName: Fish Costume Suit
+		Tooltip: Become the catch of the day
 	}
+
 	FishCostumeTail: {
-		DisplayName: "Fish Costume Tail"
-		Tooltip: "Terrible for walking, great for parties"
+		DisplayName: Fish Costume Tail
+		Tooltip: Terrible for walking, great for parties
 	}
 
 	// ---- Expansion consumables ----
 	FishTaco: {
-		DisplayName: "Fish Taco"
+		DisplayName: Fish Taco
 		Tooltip:
 			'''
 			Grants Plenty Satisfied for 10 minutes
 			'Tuesday's finest'
 			'''
 	}
+
 	FishAndChips: {
-		DisplayName: "Fish and Chips"
+		DisplayName: Fish and Chips
 		Tooltip:
 			'''
 			Grants Plenty Satisfied for 12 minutes
 			'Wrapped in yesterday's newspaper'
 			'''
 	}
+
 	SpicyLavaStew: {
-		DisplayName: "Spicy Lava Stew"
+		DisplayName: Spicy Lava Stew
 		Tooltip:
 			'''
 			Grants Exquisitely Stuffed for 15 minutes
 			Caution: extremely hot, literally
 			'''
 	}
+
 	SeafoodPaella: {
-		DisplayName: "Seafood Paella"
+		DisplayName: Seafood Paella
 		Tooltip:
 			'''
 			Grants Exquisitely Stuffed for 20 minutes
 			A whole ocean in one pan
 			'''
 	}
+
 	LuckyAnglerPotion: {
-		DisplayName: "Lucky Angler Potion"
-		Tooltip: "+20 fishing power and sonar for 8 minutes"
+		DisplayName: Lucky Angler Potion
+		Tooltip: +20 fishing power and sonar for 8 minutes
 	}
+
 	DepthsElixir: {
-		DisplayName: "Depths Elixir"
-		Tooltip: "Allows lava fishing and +10 fishing power for 6 minutes"
+		DisplayName: Depths Elixir
+		Tooltip: Allows lava fishing and +10 fishing power for 6 minutes
 	}
 
 	// ---- Pets ----
 	PufferPalItem: {
-		DisplayName: "Spiky Bowl"
-		Tooltip: "Summons a pet pufferfish"
+		DisplayName: Spiky Bowl
+		Tooltip: Summons a pet pufferfish
 	}
+
 	AxolotlPalItem: {
-		DisplayName: "Smiling Bowl"
-		Tooltip: "Summons a pet axolotl"
+		DisplayName: Smiling Bowl
+		Tooltip: Summons a pet axolotl
 	}
 
 	// ---- Biome crates ----
 	MushroomCrate: {
-		DisplayName: "Mushroom Crate"
+		DisplayName: Mushroom Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
+
 	MyceliumCrate: {
-		DisplayName: "Mycelium Crate"
+		DisplayName: Mycelium Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
+
 	CavernCrate: {
-		DisplayName: "Cavern Crate"
+		DisplayName: Cavern Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
+
 	DeepstoneCrate: {
-		DisplayName: "Deepstone Crate"
+		DisplayName: Deepstone Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
+
 	HoneyCrate: {
-		DisplayName: "Honey Crate"
+		DisplayName: Honey Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
+
 	RoyalJellyCrate: {
-		DisplayName: "Royal Jelly Crate"
+		DisplayName: Royal Jelly Crate
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 }
 
 Buffs: {
 	FervorDoPescadorBuff: {
-		DisplayName: "Angler's Fervor"
-		Description: "+30 fishing power"
+		DisplayName: Angler's Fervor
+		Description: +30 fishing power
 	}
+
 	PeixinhoDouradoBuff: {
-		DisplayName: "Pet Goldfish"
-		Description: "The goldfish is following you"
+		DisplayName: Pet Goldfish
+		Description: The goldfish is following you
 	}
+
 	LuckyAnglerBuff: {
-		DisplayName: "Lucky Angler"
-		Description: "+20 fishing power and sonar"
+		DisplayName: Lucky Angler
+		Description: +20 fishing power and sonar
 	}
+
 	DepthsElixirBuff: {
-		DisplayName: "Depths Attunement"
-		Description: "Lava fishing enabled and +10 fishing power"
+		DisplayName: Depths Attunement
+		Description: Lava fishing enabled and +10 fishing power
 	}
+
 	PufferPalBuff: {
-		DisplayName: "Puffer Pal"
-		Description: "The pufferfish is puffing along behind you"
+		DisplayName: Puffer Pal
+		Description: The pufferfish is puffing along behind you
 	}
+
 	AxolotlPalBuff: {
-		DisplayName: "Axolotl Pal"
-		Description: "The axolotl is smiling at you"
+		DisplayName: Axolotl Pal
+		Description: The axolotl is smiling at you
 	}
 }
 
 Projectiles: {
-	BobberBambu.DisplayName: "Bamboo Bobber"
-	BobberReforcado.DisplayName: "Reinforced Bobber"
-	BobberDourado.DisplayName: "Gilded Bobber"
-	BobberGlacial.DisplayName: "Glacial Bobber"
-	BobberSelvagem.DisplayName: "Wildwood Bobber"
-	BobberInfernal.DisplayName: "Infernal Bobber"
-	BobberCelestial.DisplayName: "Celestial Bobber"
-	BobberSupremo.DisplayName: "Supreme Bobber"
-	PeixinhoDouradoProjectile.DisplayName: "Pet Goldfish"
-	PufferPalProjectile.DisplayName: "Puffer Pal"
-	AxolotlPalProjectile.DisplayName: "Axolotl Pal"
-	BobberCactus.DisplayName: "Cactus Bobber"
-	BobberCoral.DisplayName: "Coral Bobber"
-	BobberSpider.DisplayName: "Spider Bobber"
-	BobberBone.DisplayName: "Bone Bobber"
-	BobberHoneycomb.DisplayName: "Honeycomb Bobber"
-	BobberMushroom.DisplayName: "Mushroom Bobber"
-	BobberMeteor.DisplayName: "Meteor Bobber"
-	BobberObsidian.DisplayName: "Obsidian Bobber"
-	BobberStorm.DisplayName: "Storm Bobber"
-	BobberCrystal.DisplayName: "Crystal Bobber"
-	BobberSpectral.DisplayName: "Spectral Bobber"
-	BobberShroomite.DisplayName: "Shroomite Bobber"
+	BobberBambu.DisplayName: Bamboo Bobber
+	BobberReforcado.DisplayName: Reinforced Bobber
+	BobberDourado.DisplayName: Gilded Bobber
+	BobberGlacial.DisplayName: Glacial Bobber
+	BobberSelvagem.DisplayName: Wildwood Bobber
+	BobberInfernal.DisplayName: Infernal Bobber
+	BobberCelestial.DisplayName: Celestial Bobber
+	BobberSupremo.DisplayName: Supreme Bobber
+	PeixinhoDouradoProjectile.DisplayName: Pet Goldfish
+	PufferPalProjectile.DisplayName: Puffer Pal
+	AxolotlPalProjectile.DisplayName: Axolotl Pal
+	BobberCactus.DisplayName: Cactus Bobber
+	BobberCoral.DisplayName: Coral Bobber
+	BobberSpider.DisplayName: Spider Bobber
+	BobberBone.DisplayName: Bone Bobber
+	BobberHoneycomb.DisplayName: Honeycomb Bobber
+	BobberMushroom.DisplayName: Mushroom Bobber
+	BobberMeteor.DisplayName: Meteor Bobber
+	BobberObsidian.DisplayName: Obsidian Bobber
+	BobberStorm.DisplayName: Storm Bobber
+	BobberCrystal.DisplayName: Crystal Bobber
+	BobberSpectral.DisplayName: Spectral Bobber
+	BobberShroomite.DisplayName: Shroomite Bobber
 }
 
 Sonar: {
-	ReiDosPeixes: "The King of Fish took the hook!"
-	PeixeDoVazio: "Something from the Void is pulling the line..."
-	LeviathanFry: "The water trembles... a Leviathan Fry!"
+	ReiDosPeixes: The King of Fish took the hook!
+	PeixeDoVazio: Something from the Void is pulling the line...
+	LeviathanFry: The water trembles... a Leviathan Fry!
 }

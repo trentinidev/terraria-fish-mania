@@ -28,17 +28,21 @@ namespace FishMania.Common.Players
 		public override void CatchFish(FishingAttempt attempt, ref int itemDrop, ref int npcSpawn, ref AdvancedPopupRequest sonar, ref Vector2 sonarPosition) {
 			var rand = Main.rand;
 
-			// ---- Crates: substitute biome crates, never the top-tier ones ----
+			// ---- Crates: substitute biome crates, never lava nor top-tier ones ----
 			if (attempt.crate) {
-				if (attempt.veryrare || attempt.legendary) {
+				if (attempt.inLava || attempt.veryrare || attempt.legendary) {
 					return;
 				}
 				bool hm = Main.hardMode;
-				if (Player.ZoneGlowshroom && rand.NextBool(2)) {
-					itemDrop = hm ? ModContent.ItemType<MyceliumCrate>() : ModContent.ItemType<MushroomCrate>();
+				if (attempt.inHoney) {
+					if (rand.NextBool(2)) {
+						itemDrop = hm ? ModContent.ItemType<RoyalJellyCrate>() : ModContent.ItemType<HoneyCrate>();
+					}
 				}
-				else if (attempt.inHoney && rand.NextBool(2)) {
-					itemDrop = hm ? ModContent.ItemType<RoyalJellyCrate>() : ModContent.ItemType<HoneyCrate>();
+				else if (Player.ZoneGlowshroom) {
+					if (rand.NextBool(2)) {
+						itemDrop = hm ? ModContent.ItemType<MyceliumCrate>() : ModContent.ItemType<MushroomCrate>();
+					}
 				}
 				else if (attempt.heightLevel >= 2 && rand.NextBool(3)) {
 					itemDrop = hm ? ModContent.ItemType<DeepstoneCrate>() : ModContent.ItemType<CavernCrate>();

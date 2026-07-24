@@ -30,7 +30,7 @@ namespace FishMania.Content.Accessories
 	// Permanent Crate Potion effect and +8 fishing power.
 	public class CrateMagnet : FishingAccessoryBase
 	{
-		protected override int Rarity => ItemRarityID.Orange;
+		protected override int Rarity => ItemRarityID.LightRed;
 		protected override int SellValue => Item.sellPrice(gold: 1, silver: 50);
 
 		public override void UpdateAccessory(Player player, bool hideVisual) {

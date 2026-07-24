@@ -58,6 +58,13 @@ v2.0.0 - The Great Expansion
 - 2 new pets: Puffer Pal and Axolotl Pal
 - Brand-new sunset cover art
 
+v2.0.1
+- Biome crates no longer replace lava crates (Obsidian/Hellstone) when lava fishing
+- Honey crates now take priority over Mushroom crates when honey fishing inside a glowing mushroom biome
+- Sparkling Cricket and Frost Fly recipes now use a Worm instead of a Firefly (crafting no longer downgrades bait power)
+- Crate Magnet rarity corrected to Light Red (it is a hardmode craft)
+- Localization file normalized to tModLoader's canonical format
+
 v1.4.0
 - Mod renamed to FishMania and fully translated to English
 - The vanity set was replaced by the Fisherman armor set (Hat 20 def, Overalls 24 def, Boots 22 def, Lime rarity)

@@ -29,7 +29,7 @@ namespace FishMania.Content.Baits
 		public override void AddRecipes() {
 			CreateRecipe(3)
 				.AddIngredient(ItemID.IceBlock, 5)
-				.AddIngredient(ItemID.Firefly)
+				.AddIngredient(ItemID.Worm)
 				.Register();
 		}
 	}
