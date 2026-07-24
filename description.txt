@@ -1,0 +1,66 @@
+FishMania - the ultimate fishing mod!
+
+Content:
+- 100 new fish spread across every biome and condition (forest, ocean, desert, snow, jungle, corruption, crimson, hallow, glowing mushroom, sky, caverns, lava, honey, night, rain and blood moon)
+- Real river and sea fish, themed fish for each biome and secret legendary fish announced by sonar
+- 20 fishing rods, from the humble Cactus Rod up to the Supreme Angler's Rod (lava fishing!)
+- 15 baits, from the Plump Worm up to the Starworm
+- 10 fishing accessories, culminating in the Legendary Angler's Gear
+- 3 fishing armor sets (Apprentice Fisher, Fisherman and Abyssal Diver) with fishing set bonuses
+- 3 fishing-themed vanity sets (Sailor, Brass Diver and Fish Costume)
+- 6 biome fishing crates (Mushroom, Cavern and Honey + hardmode versions) with their own loot
+- 3 pets: goldfish, pufferfish and axolotl
+- Fish dishes and fishing potions, including the Depths Elixir (temporary lava fishing)
+
+Happy fishing!
+
+=== Changelog ===
+
+v1.0
+- Initial release: 38 fish, 8 rods, 6 baits, 7 accessories, vanity set, pet goldfish, 3 foods and the Supreme Angler Potion
+- Catch system based on biome, rarity and depth, with legendary fish announced by sonar
+
+v1.1
+- All sprites redrawn in Terraria's visual style: diagonal pose, hue-shifted cel shading and selout outlines
+- Improved fish anatomy: forked tails, gills, fin rays and back highlights
+- Vanity armor sheets with higher-contrast color ramps
+
+v1.2
+- Bigger fish and rod sprites; fishing line removed from rod sprites
+- Baits, accessories, pet bowl and foods redrawn with much more detail
+- New mod icon with a full scene: sun rays, clouds, water reflections and a leaping golden fish
+
+v1.3
+- Fish redesigned with tall, full bodies matching vanilla fish size and proportions
+- Much bigger fins and tails, large eyes and stronger outlines
+- Rods reshaped into vanilla-style arcs with segment rings, wrapped leather grip, decorative thread and pommel
+- The King of Fish's crown, the Mushfish's cap and the Lanternfish's lure are now always drawn on top of the body
+
+v1.3.1
+- Fish now face the upper-right diagonal, exactly like vanilla fish
+- Proportions recalibrated against the game's original sprites: content now fills the whole canvas
+- Scale dithering on every fish (the vanilla checkered texture)
+- Rod curvature softened (moderate arc)
+
+v1.4.0
+- Mod renamed to FishMania and fully translated to English
+- The vanity set was replaced by the Fisherman armor set with permanent fishing potion set bonus
+
+v2.0.0 - The Great Expansion
+- 62 new fish (100 total!), including blood moon, rain, night-only and new legendary catches
+- 12 new rods (20 total) and 12 matching bobbers, from Cactus to Shroomite
+- 9 new baits (15 total), topped by the mighty Starworm
+- 3 new accessories (10 total): Lucky Lure, Crate Magnet and Lavaproof Tackle Bag
+- 2 new armor sets: Apprentice Fisher (early game) and Abyssal Diver (endgame)
+- 3 new vanity sets: Sailor, Brass Diver and Fish Costume
+- 6 biome fishing crates with custom loot: Mushroom/Mycelium, Cavern/Deepstone and Honey/Royal Jelly
+- 4 new dishes (Fish Taco, Fish and Chips, Spicy Lava Stew, Seafood Paella) and 2 new potions (Lucky Angler Potion, Depths Elixir)
+- 2 new pets: Puffer Pal and Axolotl Pal
+- Brand-new sunset cover art
+
+v1.4.0
+- Mod renamed to FishMania and fully translated to English
+- The vanity set was replaced by the Fisherman armor set (Hat 20 def, Overalls 24 def, Boots 22 def, Lime rarity)
+- Each Fisherman piece grants +10 fishing power; the full set grants the permanent effects of the Fishing, Sonar and Crate potions
+- Fisherman pieces are crafted from the matching Angler set piece + 10 Hallowed Bars at a Mythril Anvil
+- Brand-new armor sprites based on classic fisherman gear: dark wide-brim hat, yellow bib overalls over a plaid shirt with red rubber gloves, and rubber boots

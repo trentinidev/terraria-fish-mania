@@ -1,0 +1,4 @@
+displayName = FishMania
+author = Vitor
+version = 2.0.0
+side = Both
