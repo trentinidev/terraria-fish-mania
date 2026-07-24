@@ -52,6 +52,9 @@
 - Sparkling Cricket and Frost Fly recipes no longer downgrade bait power (Worm instead of Firefly)
 - Crate Magnet rarity corrected to Light Red; localization normalized to tModLoader's canonical format
 
+### v2.0.2
+- Fixed a crash on mod load: the Lucky Angler and Depths Elixir buff icons were missing from the assets
+
 ## Building
 
 The mod is built with tModLoader's own toolchain:

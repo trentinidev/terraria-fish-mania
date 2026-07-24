@@ -65,6 +65,9 @@ v2.0.1
 - Crate Magnet rarity corrected to Light Red (it is a hardmode craft)
 - Localization file normalized to tModLoader's canonical format
 
+v2.0.2
+- Fixed a crash on mod load: the Lucky Angler and Depths Elixir buff icons were missing from the assets
+
 v1.4.0
 - Mod renamed to FishMania and fully translated to English
 - The vanity set was replaced by the Fisherman armor set (Hat 20 def, Overalls 24 def, Boots 22 def, Lime rarity)
